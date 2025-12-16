@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class CelsiustoFahreneit
 {
+
 public static void main(String [] args)
 {
 
