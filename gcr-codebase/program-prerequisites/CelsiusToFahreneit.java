@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CelsiusToFahrenheit
+class CelsiustoFahreneit
 {
 public static void main(String [] args)
 {
