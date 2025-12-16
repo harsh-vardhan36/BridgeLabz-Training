@@ -9,5 +9,6 @@ public static void main(String [] args)
   int Celsius = in.nextInt();
   int Fahrenheit = (Celsius * 9/5)+ 32;
   System.out.println(Fahrenheit);
+
 }
 }
