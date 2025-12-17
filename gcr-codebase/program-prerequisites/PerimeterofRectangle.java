@@ -7,7 +7,7 @@ public class PerimeterofRectangle{
 	System.out.print("Enter Width: ");
 	int breadth = in.nextInt();
 	in.close();
-	System.out.println((2*(length + breadth));
+	System.out.println((2*(length + breadth)));
 	
 	}
 }
