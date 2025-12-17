@@ -7,7 +7,7 @@ import java.util.*;
 	System.out.println("Enter the Exponent: ");
 	double Exponent = in.nextDouble();
 	double Result = Math.pow(base, Exponent);
-	System.out.println("The result is: "+result);
+	System.out.println("The result is: "+Result);
 	in.close();
 	
 	
