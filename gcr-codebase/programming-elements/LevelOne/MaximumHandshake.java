@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Creating a class PurchaseCalculator to Calculate the Total price.
+//Creating a class MaximumHandshake to Calculate the Possible handshake.
 public class MaximumHandshake {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
