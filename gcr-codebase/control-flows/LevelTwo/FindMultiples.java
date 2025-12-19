@@ -1,6 +1,6 @@
 //Program to find all the multiples of a number below 100
 import java.util.Scanner;
-public class FindMultiples {
+public class FindMultiples{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
