@@ -1,10 +1,10 @@
 //Program to print Fizz, Buzz and FizzBuzz.
 import java.util.*;
-public class FizzBuzz{
+public class FizzBuzzUsingFor{
 	public static void main(String [] args){
 		Scanner input=new Scanner(System.in);
 		
-		//Taking salary and year of service from the user
+		//Taking Number From user.
         System.out.println("Enter the number:");
 		int number=input.nextInt();
 		
