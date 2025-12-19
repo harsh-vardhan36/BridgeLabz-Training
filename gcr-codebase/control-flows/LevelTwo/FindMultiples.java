@@ -8,12 +8,11 @@ public class FindMultiples{
         System.out.print("Enter a number: ");
         int number = in.nextInt();
 
-        //Checking if number is positive and less than 100
-        if (number > 0 && number < 100) {
-            //Running loop backward from 100 to 1
-            for (int i = 100; i >= 1; i--) {
+        //Checking if number is positive.
+        if (number > 0) { 
+            for (int i = 1; i <= number; i++) {
                 //Checking if i is a multiple of number
-                if (i % number == 0) {
+                if (number % i == 0) {
                     System.out.println(i);
                 }
             }
