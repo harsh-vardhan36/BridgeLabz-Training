@@ -1,5 +1,4 @@
-// A simple program to check which of the three numbers
-// is the largest. It prints whether the first, second,
+// Check the largest. It prints whether the first, second,
 // or third number holds the largest value.
 
 import java.util.Scanner;
@@ -8,17 +7,17 @@ public class LargestCheck {
     public static void main(String[] args) {
         
         // Create a Scanner object to read input from the user
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        // Prompt the user to enter three numbers
+        // Taking Input from the user 
         System.out.print("Enter the first number: ");
-        int number1 = sc.nextInt();
+        int number1 = input.nextInt();
 
         System.out.print("Enter the second number: ");
-        int number2 = sc.nextInt();
+        int number2 = input.nextInt();
 
         System.out.print("Enter the third number: ");
-        int number3 = sc.nextInt();
+        int number3 = input.nextInt();
 
         // Check if the first number is greater than both the second and third
         if (number1 > number2 && number1 > number3) {
@@ -42,6 +41,6 @@ public class LargestCheck {
         }
 
         // Close the scanner to free resources
-        sc.close();
+        input.close();
     }
 }
