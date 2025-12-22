@@ -1,4 +1,4 @@
-///Program to find the sum of n natural numbers using recursion and compare with formula.
+//Program to find the sum of n natural numbers using recursion and compare with formula.
 import java.util.Scanner;
 public class SumOfNaturalNumbers{
     public static void main(String [] args){
