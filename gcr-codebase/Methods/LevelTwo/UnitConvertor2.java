@@ -1,5 +1,5 @@
-///Program to check if 10 students can vote based on their age.
-import java.util.Scanner;
+//Program to check if 10 students can vote based on their age.
+import java.util.*;
 
 public class StudentVoteChecker{
     public static void main(String [] args){
