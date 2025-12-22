@@ -9,7 +9,7 @@ public class FriendsAgeHeight{
         //Names of friends
         String[] names = {"Amar", "Akbar", "Anthony"};
         
-        //Arrays to store ages and heights
+        //Arrays to store ages and heights.
         int[] ages = new int[3];
         double[] heights = new double[3];
         
