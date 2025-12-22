@@ -1,12 +1,11 @@
 ///Program to calculate BMI of 10 members and display their height, weight, BMI, and status.
 import java.util.Scanner;
-
 public class BMICalculator{
     public static void main(String [] args){
     
         Scanner in = new Scanner(System.in);
         
-        //2D array: 10 rows (members), 3 columns (weight, height, BMI)
+        //2D array: 10 rows (members), 3 columns (weight, height, BMI).
         double[][] members = new double[10][3];
         
         //Taking input for weight and height
