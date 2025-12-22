@@ -5,7 +5,7 @@ public class FactorsCalculator{
     
         Scanner in = new Scanner(System.in);
         
-        //Creating object of FactorsCalculator
+        //Creating object of FactorsCalculator.
         FactorsCalculator FC = new FactorsCalculator();
         
         //Taking the number from user.
