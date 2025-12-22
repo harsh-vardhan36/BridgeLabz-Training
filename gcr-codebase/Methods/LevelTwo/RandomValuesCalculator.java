@@ -1,4 +1,4 @@
-///Program to generate five 4-digit random values and find their average, min, and max.
+//Program to generate five 4-digit random values and find their average, min, and max.
 import java.util.Scanner;
 
 public class RandomValuesCalculator{
