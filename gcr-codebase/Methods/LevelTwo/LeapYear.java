@@ -4,7 +4,6 @@ public class LeapYear{
     public static void main(String [] args){
     
         Scanner in = new Scanner(System.in);
-        
         //Creating object of LeapYear
         LeapYear LY = new LeapYear();
         
