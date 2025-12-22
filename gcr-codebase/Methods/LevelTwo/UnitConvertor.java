@@ -1,5 +1,5 @@
-///Utility class to perform Unit Conversions.
-import java.util.Scanner;
+//Utility class to perform Unit Conversions.
+import java.util.*;
 
 public class UnitConvertor{
     
