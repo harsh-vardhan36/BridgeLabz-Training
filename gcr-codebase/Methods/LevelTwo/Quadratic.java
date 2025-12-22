@@ -1,4 +1,4 @@
-///Program to find the roots of a Quadratic Equation ax^2 + bx + c.
+///Program to find the roots of a Quadratic Equation ax^2+ bx + c.
 import java.util.Scanner;
 
 public class Quadratic{
