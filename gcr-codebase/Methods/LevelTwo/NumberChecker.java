@@ -45,7 +45,7 @@ public class NumberChecker{
         return number >= 0;
     }
     
-    //Method to check even or odd
+    //Method to check even or odd.
     public static boolean isEven(int number){
         return number % 2 == 0;
     }
