@@ -18,7 +18,7 @@ public class CheckNumber{
 	
 	//Declaring a Method. 
 	
-	public int CheckNumber(int number){
+	public int CheckNum(int number){
 		if(number>0) return 1;
 		else if (number ==0) return 0;
 		else return -1;

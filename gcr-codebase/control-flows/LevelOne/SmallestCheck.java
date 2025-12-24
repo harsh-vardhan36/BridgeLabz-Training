@@ -20,7 +20,7 @@ public class SmallestCheck {
         int number3 = input.nextInt();
 
         // Check if the first number is smaller than both the second and third
-        if (number1 < number2 && number1 < number3) {
+        if (number1 <= number2 && number1 <= number3) {
             System.out.println("Is the first number the smallest? Yes");
         } else {
             System.out.println("Is the first number the smallest? No");
