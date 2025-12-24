@@ -1,36 +1,19 @@
-// Program: Date Comparison Example Using LocalDate's isBefore(), isAfter(), and isEqual().
-
 import java.time.LocalDate;
-import java.util.Scanner;
+import java.time.format.DateTimeFormatter;
 
-public class DateComparison {
-
-    // Method to compare two dates
-    public static void compareDates(LocalDate date1, LocalDate date2) {
-        if (date1.isBefore(date2)) {
-            System.out.println("First date (" + date1 + ") is BEFORE second date (" + date2 + ")");
-        } else if (date1.isAfter(date2)) {
-            System.out.println("First date (" + date1 + ") is AFTER second date (" + date2 + ")");
-        } else if (date1.isEqual(date2)) {
-            System.out.println("Both dates are EQUAL: " + date1);
-        }
-    }
-
+public class DateFormatting {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Step 1: Get current date
+        LocalDate currentDate = LocalDate.now();
 
-        // Input format: yyyy-MM-dd
-        System.out.print("Enter first date (yyyy-MM-dd): ");
-        String input1 = sc.nextLine();
-        LocalDate date1 = LocalDate.parse(input1);
+        // Step 2: Define formatters
+        DateTimeFormatter format1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter format2 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter format3 = DateTimeFormatter.ofPattern("EEE, MMM dd, yyyy");
 
-        System.out.print("Enter second date (yyyy-MM-dd): ");
-        String input2 = sc.nextLine();
-        LocalDate date2 = LocalDate.parse(input2);
-
-        // Compare dates using method
-        compareDates(date1, date2);
-
-        sc.close();
+        // Step 3: Display formatted dates
+        System.out.println("Format 1 (dd/MM/yyyy): " + currentDate.format(format1));
+        System.out.println("Format 2 (yyyy-MM-dd): " + currentDate.format(format2));
+        System.out.println("Format 3 (EEE, MMM dd, yyyy): " + currentDate.format(format3));
     }
 }
