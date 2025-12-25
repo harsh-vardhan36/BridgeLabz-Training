@@ -23,3 +23,9 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Pushed solutions to GitHub
 - Code Link: [Programming Elements](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 ---
+### Day 4 - Control Flow
+**Date:** 19-Dec-2025
+- Practiced `if`, `else`, `switch`, and loops
+- Implemented decision-making programs
+- Code Link: [Control Flow](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+---
