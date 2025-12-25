@@ -7,12 +7,19 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Set up GitHub repository
 -  Learned basic Git commands: `init`, `clone`, `add`, `commit`, `push`
 -  Pushed initial files to GitHub
--  Code Link: [Program Prerequisites](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites)
+-  Code Link: [Core Java Practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice)
 ---
 ###  Day 2 – Git Practice & Basic Java Programs 
 **Date:** 17-Dec-2025 
 - Practiced Git workflow and version control
 - Solved basic Java programs to understand syntax
 - Committed and pushed Java files
-- Code Link: [Basic Java Programs](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+- Code Link: [program-prerequisites](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites)
+---
+###  Day 3 – Programming Elements in Java 
+**Date:** 18-Dec-2025  
+- Learned variables, data types, operators, user input/output
+- Solved practice problems
+- Pushed solutions to GitHub
+- Code Link: [Programming Elements](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 ---
