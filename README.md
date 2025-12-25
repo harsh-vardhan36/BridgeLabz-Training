@@ -35,3 +35,9 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Solved student marks and frequency problems
 - Code Link: [Arrays](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 ---
+### Day 6 – String LevelOne
+**Date:** 21-Dec-2025 
+- Explored String, Exception Handing, Error, and try -catch 
+- practice Error Handling in String and IndexBound Exception
+- Code Link: [String levelOne](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings/LevelOne)
+---
