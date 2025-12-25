@@ -29,3 +29,9 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Implemented decision-making programs
 - Code Link: [Control Flow](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 ---
+### Day 5 – Arrays 
+**Date:** 20-Dec-2025 
+- Learned array declaration, traversal, and operations
+- Solved student marks and frequency problems
+- Code Link: [Arrays](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+---
