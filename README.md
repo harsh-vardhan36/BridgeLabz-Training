@@ -41,3 +41,11 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - practice Error Handling in String and IndexBound Exception
 - Code Link: [String levelOne](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings/LevelOne)
 ---
+### Day 7 - Strings
+**Date:** 22-Dec-2025
+- Explored String as a DataType.
+- Solve Practice problem of levelTwo and levelThree
+- Implemented Error & Exception Handling in String.
+- Code link : [Strings](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
+---
+
