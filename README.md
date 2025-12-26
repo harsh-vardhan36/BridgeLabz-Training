@@ -48,4 +48,9 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Implemented Error & Exception Handling in String.
 - Code link : [Strings](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 ---
-
+### Day 7 - Methods
+**Date:** 23-Dec-2025
+- Explored method creation, calling, and parameter passing
+- Modularized code using methods
+- code link : [Methods](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
+---
