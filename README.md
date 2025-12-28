@@ -61,7 +61,7 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - code link: [Extras](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
 ---
 ### Day 10 - Scenario Based Questions
-**Date:** 25-Dec-2025
+**Date:** 26-Dec-2025
 - Added Scenario based Questions
 - BMItracker and Coffee Shop.
 - code link: [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
