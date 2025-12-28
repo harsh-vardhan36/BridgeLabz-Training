@@ -48,22 +48,23 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Implemented Error & Exception Handling in String.
 - Code link : [Strings](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 ---
-### Day 7 - Methods
+### Day 8 - Methods
 **Date:** 23-Dec-2025
 - Explored method creation, calling, and parameter passing
 - Modularized code using methods
 - code link : [Methods](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 ---
-### Day 8 - Extras
+### Day 9 - Extras
 **Date:** 24-Dec-2025
 - Expolored Extras Problems practice
 - Practice BuiltIn Function and String Handling
 - code link: [Extras](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
 ---
-### Day 9 - Scenario Based Questions
+### Day 10 - Scenario Based Questions
 **Date:** 25-Dec-2025
 - Added Scenario based Questions
 - BMItracker and Coffee Shop.
 - code link: [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 ---
+
 
