@@ -9,7 +9,7 @@ public class ElectionBoothManager {
             System.out.print("Enter age (or 0 to exit): ");
             int age = sc.nextInt();
 
-            if (age == 0) break; // exit condition
+            if (age == 0) break; // exit condition.
 
             if (age >= 18) {
                 System.out.print("Cast your vote (1, 2, or 3): ");
