@@ -4,7 +4,7 @@ public class Ebook extends Book{
 	  String fileFormat;
 
 	    // Constructor
-	    public EBook(String ISBN, String title, String author, String fileFormat) {
+	    public void EBook(String ISBN, String title, String author, String fileFormat) {
 	        super(ISBN, title, author);
 	        this.fileFormat = fileFormat;
 	    }
