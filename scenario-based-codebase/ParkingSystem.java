@@ -12,6 +12,7 @@ class ParkingSystem{
         }
         else {
             System.out.println("seat available..");
+			//Taking the vehicle number from the user.
             System.out.print("Please Enter your vehicle number:\n>");
             String vehicleNum  = input.next();
             cars[occupied]  = vehicleNum;
