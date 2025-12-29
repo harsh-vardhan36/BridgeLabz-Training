@@ -68,14 +68,14 @@
 **Date:** 27-Dec-2025
 - Added Class and Object Program
 - Worked on Basic Concepts of OOPs.
-- code link: [ClassandObject].(https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject).
+- code link: [ClassandObject](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject).
 ---
 ### Day 12 - Constructor Program
 **Date:** 29-Dec-2025
 - Added Constructor Program
 - worked on constructor logic
 - Initialized constructor and made Main Class seperately.
-- code link: [Constructor].(https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructor/levelOne).
+- code link: [Constructor](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructor/levelOne).
 ---
 
 
