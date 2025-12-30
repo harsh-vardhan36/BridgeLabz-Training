@@ -71,11 +71,24 @@
 - code link: [ClassandObject](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject).
 ---
 ### Day 12 - Constructor Program
-**Date:** 29-Dec-2025
+**Date:** 28-Dec-2025
 - Added Constructor Program
 - worked on constructor logic
 - Initialized constructor and made Main Class seperately.
 - code link: [Constructor](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructor/levelOne).
 ---
+### Day 13 - Scenario Based program
+**Date:** 29-Dec-2025
+- Added Scenario Based Solution to the given programs.
+- worked on various method to solve scenario like 'Parking System', 'ShopkeeperDiscountDashboard', 'Recharge Simulator'
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+---
+**Date:** 29-Dec-2025
+- worked on java-oops-practice.
+- Added OOPs concept program in java-oops-practice
+- worked on Constructor of OOPs
+- code link [Constructor](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructor/levelOne)
+---
 
+- 
 
