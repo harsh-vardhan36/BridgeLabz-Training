@@ -101,7 +101,7 @@
   **Date:** 31-Dec-2025
   - worked on core-java-practice
   - Added 'Train Reserve System', 'Fightness tracker system'
-  - code link [Scenario-Based] (https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+  - code link [Scenario-Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase).
 ---
 ### Day 16 - Worked On java-oops-practice
 **Date:** 01-Jan-2026
