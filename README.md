@@ -101,6 +101,19 @@
   **Date:** 31-Dec-2025
   - worked on core-java-practice
   - Added 'Train Reserve System', 'Fightness tracker system'
-  - code link[Scenario-Based]: (https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+  - code link[Scenario-Based] (https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
     ---
-
+### Day 16 - Worked On java-oops-practice
+**Date:** 01-Jan-2026
+- Worked on java-oops-practice
+- worked on ObjectModelling practice
+- Solved problems like 'UniversityAndManagement System', 'Company and Department'
+- code link [Object Modelling](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/objectmodelling)
+---
+**Date:** 01-Jan-2026
+- Worked on Scenario Based Problem
+- Added Solutions like 'CurrencyExchange', 'Digital Watch Simulation'.
+- Worked on Java core concepts like private, public.
+- code link[SCenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+  ---
+  
