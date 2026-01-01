@@ -114,6 +114,6 @@
 - Worked on Scenario Based Problem
 - Added Solutions like 'CurrencyExchange', 'Digital Watch Simulation'.
 - Worked on Java core concepts like private, public.
-- code link [SCenario Based] (https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+- code link [Scenario Based] (https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase).
   ---
   
