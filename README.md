@@ -122,4 +122,3 @@
 - practice Encapsulation, Polymorphism and Inheritance
 - code link [Encapsulation](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulation)
 ---
-
