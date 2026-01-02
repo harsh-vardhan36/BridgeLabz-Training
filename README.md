@@ -116,4 +116,10 @@
 - Worked on Java core concepts like private, public.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 ---
-  
+### Day 17 - Worked on java-oops-practice
+**Date:** 02-Jan-2026
+- Worked on java-oops-practice
+- practice Encapsulation, Polymorphism and Inheritance
+- code link [Encapsulation](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulation)
+---
+
