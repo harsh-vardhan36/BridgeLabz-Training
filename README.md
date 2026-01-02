@@ -1,6 +1,19 @@
 # BridgeLabz-Training
 ### This is my Java-oops-practice Here i am Solving Object Oriented Programming programs and Scenario Based Question related to four pilliars of OOPs Concept.
 
+### Day 11 - Switched to java-oops-practice Branch
+**Date:** 27-Dec-2025
+- Added Class and Object Program
+- Worked on Basic Concepts of OOPs.
+- code link: [ClassandObject](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject).
+---
+### Day 12 - Constructor Program
+**Date:** 28-Dec-2025
+- Added Constructor Program
+- worked on constructor logic
+- Initialized constructor and made Main Class seperately.
+- code link: [Constructor](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructor/levelOne).
+---
 ### Day 13 - Java-oops-practice
 **Date:** 29-Dec-2025
 - worked on java-oops-practice.
