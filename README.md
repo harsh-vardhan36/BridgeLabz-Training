@@ -66,5 +66,29 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - BMItracker and Coffee Shop.
 - code link: [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 ---
-
+### Day 13 - Scenario Based program
+**Date:** 29-Dec-2025
+- Added Scenario Based Solution to the given programs.
+- worked on various method to solve scenario like 'Parking System', 'ShopkeeperDiscountDashboard', 'Recharge Simulator'
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+---
+### Day 13 - Scenario Based program
+**Date:** 29-Dec-2025
+- Added Scenario Based Solution to the given programs.
+- worked on various method to solve scenario like 'Parking System', 'ShopkeeperDiscountDashboard', 'Recharge Simulator'
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+---
+### Day 15 - Worked on Scenario Based Question
+  **Date:** 31-Dec-2025
+  - worked on core-java-practice
+  - Added 'Train Reserve System', 'Fightness tracker system'
+  - code link [Scenario-Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase).
+---
+### Day 16 - Worked On Scenario Based
+**Date:** 01-Jan-2026
+- Worked on Scenario Based Problem
+- Added Solutions like 'CurrencyExchange', 'Digital Watch Simulation'.
+- Worked on Java core concepts like private, public.
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+---
 
