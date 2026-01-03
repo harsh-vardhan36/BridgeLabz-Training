@@ -4,6 +4,7 @@
 .settings/
 .classpath
 .project
+.gitignore
 
 #Java Build Output
 bin/
