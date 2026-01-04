@@ -9,7 +9,7 @@ This branch tracks my progress log of Data Structures.
 - Solved Problems like 'RoundRobin problem' , 'LibraryManagement.'
 - code link [LinkedList](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/linkedlist)
 ---
-### Day 19 - Woeked On 'java-dsa-practice'
+### Day 19 - Worked On 'java-dsa-practice'
 **Date:** 04-jan-2026
 - Practice Stack - Queue program
 - 
