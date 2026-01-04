@@ -50,4 +50,14 @@
 - Created Solutions like 'VehicleRental Application', 'ewallet Application'... and more.
 - Implemented abstraction concept to create abstract Class also used function overriding Concepts.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
+### Day 19 - Worked On Scenario Based Problems
+**Date:** 04-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario Based Folder.
+- Created Solutions like 'CabbyGO' and 'My Bank'.
+- Implemented Concepts like interfaces, abstraction, and Inheritances
+- uses access modifiers like private, protected to protect data and files from direct access.
+- code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
 
