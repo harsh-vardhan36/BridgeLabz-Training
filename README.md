@@ -130,3 +130,29 @@
 - Created Solutions like 'VehicleRental Application', 'ewallet Application'... and more.
 - Implemented abstraction concept to create abstract Class also used function overriding Concepts.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
+### Day 19 - Worked On Scenario Based Problems
+**Date:** 04-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario Based Folder.
+- Created Solutions like 'CabbyGO' and 'My Bank'.
+- Implemented Concepts like interfaces, abstraction, and Inheritances
+- uses access modifiers like private, protected to protect data and files from direct access.
+- code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
+### Day 19 - Worked On 'java-dsa-practice'
+**Date:** 04-jan-2026
+- Practice Stack program
+- Implemented '_Recursion_' , '_span_' in stack.
+- code link [Stack](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/stack)
+
+**Date:** 04-jan-2026
+- Practice Queue Proogram
+- Implemented Queue using Stack, Greedy Approach in Queue.
+- code link [Queue](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/queue)
+  
+**Date:** 04-jan-2026
+- Practice HashMap program.
+- Solved Problems like 'Two Sum' using HashSet, 'SubArray' program.
+- code link [HashMap](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/hashmap)
+---
