@@ -60,4 +60,12 @@
 - uses access modifiers like private, protected to protect data and files from direct access.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 20 - Worked On Scenario Based Problems
+**Date:** 05-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario Based Folder.
+- Created Solutions like 'CampusConnect' and 'SwiftCart'.
+- Implemented Concepts like interfaces, abstraction, and Inheritances
+- code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
 
