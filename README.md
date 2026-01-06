@@ -165,7 +165,7 @@
 - code link [HashMap](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/hashmap)
 ---
 ### Day 20 - Worked On Scenario Based Problems
-**Date:** 04-jan-2026
+**Date:** 05-jan-2026
 - Worked on java-oops-practice branch
 - Solved 2 more problems in the Scenario Based Folder.
 - Created Solutions like 'CampusConnect' and 'Swift Cart'.
