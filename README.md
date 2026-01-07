@@ -25,3 +25,10 @@ This branch tracks my progress log of Data Structures.
 - Solved Problems like 'Two Sum' using HashSet, 'SubArray' program.
 - code link [HashMap](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/hashmap)
 ---
+### Day 21 - Worked on 'java-dsa-practice' branch
+**Date:** 06-Jan-2026
+- Practice Sorting Algorithm
+- Implemented various sorting Algorithm like '_Bubble Sort_', '_Quick Sort_', '_Merge Sort_', '_Selection Sort_' and More...
+- Solved Problems like 'Sorting Student Marks', 'Sorting Student Age' Sorted Employee ID.
+- code link [Sorting Algorithm](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/sortingAlgorithm)
+---
