@@ -181,4 +181,11 @@
 - Implemented Concepts like interfaces, abstraction, and Inheritances
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Worked on 'java-dsa-practice' branch
+**Date:** 06-Jan-2026
+- Practice Sorting Algorithm
+- Implemented various sorting Algorithm like '_Bubble Sort_', '_Quick Sort_', '_Merge Sort_', '_Selection Sort_' and More...
+- Solved Problems like 'Sorting Student Marks', 'Sorting Student Age' Sorted Employee ID.
+- code link [Sorting Algorithm](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/sortingAlgorithm)
+---
 
