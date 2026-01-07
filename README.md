@@ -1,4 +1,5 @@
 # BridgeLabz-Training
+# Week 1 = core - java - practice
 ### Day 1 – Git & GitHub Setup
 **Date:** 16-Dec-2025
 - Installed and configured Git
@@ -64,6 +65,7 @@
 - BMItracker and Coffee Shop.
 - code link: [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase).
 ---
+# week 2 = java - oops - practice
 ### Day 11 - Switched to java-oops-practice Branch
 **Date:** 27-Dec-2025
 - Added Class and Object Program
@@ -131,6 +133,7 @@
 - Implemented abstraction concept to create abstract Class also used function overriding Concepts.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+# Week 3 = java - dsa - practice 
 ### Day 18 - Worked On 'java-dsa-practice' branch
 **Date:** 03-jan-2026
 - practice LinkedList problems
