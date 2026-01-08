@@ -6,7 +6,7 @@ public class UserProfile {
     private double weight;
     private String goal;
     private int dailyTargetCalories = 500;
-
+ 
     public UserProfile(String name, int age, double weight) {
         this(name, age, weight, "Stay Fit");
     }

@@ -10,7 +10,7 @@ public abstract class Workout implements ITrackable {
         this.type = type;
         this.duration = duration;
     }
-
+ 
     public abstract void calculateCalories();
 
     public int getCaloriesBurned() {
