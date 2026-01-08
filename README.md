@@ -1,7 +1,7 @@
 # BridgeLabz-Training
 ### This is my Java-oops-practice Here i am Solving Object Oriented Programming programs and Scenario Based Question related to four pilliars of OOPs Concept.
 
-# Week 2
+# Week 2 = java - oops - practice
 ### Day 11 - Switched to java-oops-practice Branch 
 **Date:** 27-Dec-2025
 - Added Class and Object Program
@@ -75,5 +75,13 @@
 - Solved 2 more problems in the Scenario Based Folder.
 - Created Solutions like 'Edu Mentor' and 'FitTrack'.
 - Implemented Concepts like interfaces, abstraction, and Inheritances
+- code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
+### Day 22 - Worked On Scenario Based Problems
+**Date:** 07-jan-2026
+- Worked on java-oops-practice Branch
+- Solved 5 problems in the scenario Based Folder.
+- Created Solutions like '_LoanBuddy_', '_PetPal_', '_Book Bazaar_', '_ParkEase_' and more..
+- Implemented Concepts like Inheritance, Interfaces and Encapsulation.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
