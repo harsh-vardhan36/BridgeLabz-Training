@@ -1,6 +1,7 @@
 # BridgeLabz-Training
 This branch tracks my progress log of Data Structures.
 
+# week 3 = java - dsa - practice.
 ### Day 18 - Worked On 'java-dsa-practice' branch
 **Date:** 03-jan-2026
 - practice LinkedList problems
@@ -31,4 +32,11 @@ This branch tracks my progress log of Data Structures.
 - Implemented various sorting Algorithm like '_Bubble Sort_', '_Quick Sort_', '_Merge Sort_', '_Selection Sort_' and More...
 - Solved Problems like 'Sorting Student Marks', 'Sorting Student Age' Sorted Employee ID.
 - code link [Sorting Algorithm](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/sortingAlgorithm)
+---
+### Day 22 Worked on 'java-dsa-practice' branch
+**Date:** 07-Jan-2026
+- Practice Linear and Binay Search Algorithm
+- Implemented various Searching Algorithm like '_linearSearch_', '_BinarySearch_', and various functions like '_StringBuffer_', '_StringBuilder_' and More...
+- Solved Problems like 'RemoveDuplicates', 'Sentence Search' Peak Element.
+- code link [Linear and binary](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/linearandbinarysearch)
 ---
