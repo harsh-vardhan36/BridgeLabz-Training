@@ -206,3 +206,11 @@
 - Implemented Concepts like Inheritance, Interfaces and Encapsulation.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Worked On Scenario Based Problems
+**Date:** 08-jan-2026
+- Worked on java-oops-practice Branch
+- Solved 2 problems in the scenario Based Folder.
+- Created Solutions like '_MediStore_', '_TourMate_'...
+- Implemented Concepts like Inheritance, Interfaces and Encapsulation.
+- code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
