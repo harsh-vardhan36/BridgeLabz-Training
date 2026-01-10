@@ -222,3 +222,12 @@
 - Solved Problems like 'String Concatenation ', 'Search COmparison' 'Sorting comparison'.
 - code link [Runtime Analysis](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/runtimeanalysis)
 ---
+### Day 25 - Worked on Leetcode problems
+**Date:** 10-jan-2026
+- worked on core-java-practice branch
+- practice leetcode problems
+- Solved 5 questions of 'difficulty:' easy.
+- Added Solution like '_twoSum_', '_AddTwoNumbers_', '_LongestSubstring_' and more..
+- Used HashMap, Linkedlist and others.
+- Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+---
