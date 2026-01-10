@@ -40,3 +40,12 @@ This branch tracks my progress log of Data Structures.
 - Solved Problems like 'RemoveDuplicates', 'Sentence Search' Peak Element.
 - code link [Linear and binary](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/linearandbinarysearch)
 ---
+### Day 24 Worked on 'java-dsa-practice' branch
+**Date:** 09-Jan-2026
+- Practice Runtime Analysis of Algorithm
+- Implemented various Searching and Sorting Algorithm like '_linearSearch_', '_BinarySearch_', _MergerSort_', '_QuickSort_' and More...
+- Compare between different Algorithms on their runtime.
+- Solved Problems like 'String Concatenation ', 'Search COmparison' 'Sorting comparison'.
+- code link [Runtime Analysis](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/runtimeanalysis)
+---
+
