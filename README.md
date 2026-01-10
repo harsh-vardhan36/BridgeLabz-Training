@@ -214,3 +214,11 @@
 - Implemented Concepts like Inheritance, Interfaces and Encapsulation.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 24 Worked on 'java-dsa-practice' branch
+**Date:** 09-Jan-2026
+- Practice Runtime Analysis of Algorithm
+- Implemented various Searching and Sorting Algorithm like '_linearSearch_', '_BinarySearch_', _MergerSort_', '_QuickSort_' and More...
+- Compare between different Algorithms on their runtime.
+- Solved Problems like 'String Concatenation ', 'Search COmparison' 'Sorting comparison'.
+- code link [Runtime Analysis](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/com/src/com/runtimeanalysis)
+---
