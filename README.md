@@ -101,4 +101,12 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Used HashMap, Linkedlist and others.
 - Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 ---
+### worked on leetcode-codebase
+**Date:** 11-jan-2026
+- worked on core-java-practice branch
+- practice leetcode problems
+- Solved problems of 'difficulty:' easy
+- Solved problems like '_Climbing Stairs_', '_Remove Elements_' and more..
+- code link [leetcode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays/leetcode/src/leetcode)
+---
 
