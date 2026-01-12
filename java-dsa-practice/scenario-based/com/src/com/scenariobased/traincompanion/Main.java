@@ -7,7 +7,7 @@ public class Main {
 
         train.addCompartment("Sleeper");
         train.addCompartment("Pantry");
-        train.addCompartment("WiFi");
+        train.addCompartment( "WiFi");
         train.addCompartment("AC");
 
         Compartment current = train.getHead(); 
@@ -20,4 +20,4 @@ public class Main {
         train.remove("WiFi");
     }
 }
- 
+  
