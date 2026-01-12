@@ -231,3 +231,27 @@
 - Used HashMap, Linkedlist and others.
 - Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 ---
+### worked On scenario Based Problems
+**Date:** 10-jan-2026
+- worked on java-oops-practice branch
+- Solved 3 problems in the scenario Based Folder.
+- Created Solution like '_artify_', '_FoodLoop_', '_SkillForge_'.
+- Implemented Concepts like Inheritance, Interface and Encapsulation.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
+### Day 26 worked on 'java-dsa-practice' branch
+**Date:** 11-jan-2026
+- Worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 Scenario Based problems.
+- Used various Data structure stacks like linkedlist and queue.
+- Solved problems like '_BookSelf_', '_BrowserBuddy_' and '_AmbulanceRoute_'.
+- code link[scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### worked on leetcode-codebase
+**Date:** 11-jan-2026
+- worked on core-java-practice branch
+- practice leetcode problems
+- Solved problems of 'difficulty:' easy
+- Solved problems like '_Climbing Stairs_', '_Remove Elements_' and more..
+- code link [leetcode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays/leetcode/src/leetcode)
+---
