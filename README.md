@@ -93,3 +93,11 @@
 - Implemented Concepts like Inheritance, Interfaces and Encapsulation.
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 25 - worked On scenario Based Problems
+**Date:** 10-jan-2026
+- worked on java-oops-practice branch
+- Solved 3 problems in the scenario Based Folder.
+- Created Solution like '_artify_', '_FoodLoop_', '_SkillForge_'.
+- Implemented Concepts like Inheritance, Interface and Encapsulation.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
