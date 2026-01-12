@@ -255,3 +255,10 @@
 - Solved problems like '_Climbing Stairs_', '_Remove Elements_' and more..
 - code link [leetcode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays/leetcode/src/leetcode)
 ---
+### Day 27 worked on 'java-dsa-practice' 
+**Date:** 12-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 Scenario Based problem.
+- Used Various Data Structure like HashMap, stack, circularLinkedlist,
+- Solved problems like '_TextEditor_', '_TrafficManager_', 'TrainCompanion'.
+- code link[scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
