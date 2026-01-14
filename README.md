@@ -271,3 +271,10 @@
 - Implemented Concepts like Interface, Inheritance, constructors and more.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 28 worked on 'java-dsa-practice' 
+**Date:** 13-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 Scenario Based problem.
+- Used Various Data Structure like HashMap, stack, circularLinkedlist,
+- Solved problems like '_SmartCheckout_', '_ParcelTracker_', '_ExamProctor_'.
+- code link[scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
