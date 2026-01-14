@@ -277,4 +277,4 @@
 - Solved 3 Scenario Based problem.
 - Used Various Data Structure like HashMap, stack, circularLinkedlist,
 - Solved problems like '_SmartCheckout_', '_ParcelTracker_', '_ExamProctor_'.
-- code link[scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
