@@ -278,3 +278,12 @@
 - Used Various Data Structure like HashMap, stack, circularLinkedlist,
 - Solved problems like '_SmartCheckout_', '_ParcelTracker_', '_ExamProctor_'.
 - code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 29 - worked on Scenario Based Problems
+**Date:** 14-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario based Folder
+- Created Solutions like '_payXpress_' and '_EcoWing_'.
+- Implemented Concepts like Interface, Inheritance, constructors and more.
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
