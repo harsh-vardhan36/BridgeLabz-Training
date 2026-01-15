@@ -288,7 +288,7 @@
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
   
 ###  Worked on Leetcode problems
-**Date:** 10-jan-2026
+**Date:** 14-jan-2026
 - worked on core-java-practice branch
 - practice leetcode problems
 - Solved 3 more questions of 'difficulty:' easy.
