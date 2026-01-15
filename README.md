@@ -226,7 +226,7 @@
 **Date:** 10-jan-2026
 - worked on core-java-practice branch
 - practice leetcode problems
-- Solved 5 questions of 'difficulty:' easy.
+- Solved 3 questions of 'difficulty:' easy.
 - Added Solution like '_twoSum_', '_AddTwoNumbers_', '_LongestSubstring_' and more..
 - Used HashMap, Linkedlist and others.
 - Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
@@ -286,4 +286,13 @@
 - Created Solutions like '_payXpress_' and '_EcoWing_'.
 - Implemented Concepts like Interface, Inheritance, constructors and more.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+  
+###  Worked on Leetcode problems
+**Date:** 10-jan-2026
+- worked on core-java-practice branch
+- practice leetcode problems
+- Solved 3 more questions of 'difficulty:' easy.
+- Added Solution like '_Remove_duplicates_Sorted_array_','_longest_palindromic_substring_', '_removeElements_' and more..
+- Used HashMap, Array and others.
+- Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 ---
