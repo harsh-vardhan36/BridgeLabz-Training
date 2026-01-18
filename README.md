@@ -117,3 +117,11 @@
 - Implemented Concepts like Interface, Inheritance, constructors and more.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 32 - worked on Scenario Based Problems
+**Date:** 17-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario based Folder
+- Created Solutions like '_GeoMeasure_' and '_BagnBall_'.
+- Implemented Concepts like Interface, Inheritance, constructors and more.
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
