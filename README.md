@@ -80,4 +80,19 @@ This branch tracks my progress log of Data Structures.
 - Solved problems like '_HospitalQueue_', '_SmartSelf_', '_zipzipMart_',_EventManager_ and _ExamCell_.
 - code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
 ---
-
+### Day 31 worked on 'java-dsa-practice' 
+**Date:** 16-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used Various Data Structure like BubbleSort, MergeSort, divide&Conquer technique" and more...
+- Solved problems like '_RoboWareHouse_', '_CinemaHouse_', '_cropMonitor_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 32 worked on 'java-dsa-practice' 
+**Date:** 17-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 4 more Scenario Based problem.
+- Used Various Data Structure like BubbleSort, MergeSort, divide&Conquer technique" and more...
+- Solved problems like '_ArtExpo_', '_FleetManager_', '_IceCreamRush_', ''_SmartLibrary_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
