@@ -296,3 +296,35 @@
 - Used HashMap, Array and others.
 - Code link [LeetCode](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 ---
+### Day 30 worked on 'java-dsa-practice' 
+**Date:** 15-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 5 more Scenario Based problem.
+- Used Various Data Structure like BubbleSorting, MergeSort, divide&Conquer technique" and more...
+- Solved problems like '_HospitalQueue_', '_SmartSelf_', '_zipzipMart_',_EventManager_ and _ExamCell_.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 31 worked on 'java-dsa-practice' 
+**Date:** 16-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used Various Data Structure like BubbleSort, MergeSort, divide&Conquer technique" and more...
+- Solved problems like '_RoboWareHouse_', '_CinemaHouse_', '_cropMonitor_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 32 worked on 'java-dsa-practice' 
+**Date:** 17-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 4 more Scenario Based problem.
+- Used Various Data Structure like BubbleSort, MergeSort, divide&Conquer technique" and more...
+- Solved problems like '_ArtExpo_', '_FleetManager_', '_IceCreamRush_', ''_SmartLibrary_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+###  worked on Scenario Based Problems
+**Date:** 17-jan-2026
+- Worked on java-oops-practice branch
+- Solved 2 more problems in the Scenario based Folder
+- Created Solutions like '_GeoMeasure_' and '_BagnBall_'.
+- Implemented Concepts like Interface, Inheritance, constructors and more.
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
+---
