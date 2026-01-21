@@ -312,7 +312,33 @@
 - Solved problems like '_RoboWareHouse_', '_CinemaHouse_', '_cropMonitor_'.
 - code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
 ---
-### Day 32 worked on 'java-dsa-practice' 
+# Week 4 = java - collections - practice
+---
+### Day 31 – Java Generics
+**Date:** 16-jan-2026
+- Worked on java Generics in branch **java-collections-practice**
+- Learn about **type safety**, **reusability**, and **maintainability** in java
+- Learn about Upper Lower Bound wildCard '< ? >' for read only access.
+- Implemented 5 program in java generics
+- Solved problems like _SmartWareHouse Management_ , _Personalized Meal Plan Generator_ , _Multi-level Course_ and more...
+- code link [Generics](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/generics)
+---
+### Day 32 - Collections
+**Date:** 17-jan-2026
+- Worked on java collections in branch java-collections-practice
+- Learn about **Interfaces** like _List_, _Map_, _Queue_ and more..
+- Implemented 20 program in java Interface.
+- Solved other collections programs as well like voting System, Shopping cart and Banking System.
+- Solved problems like _RotateElements_ , _NthfromEnd_ , _unionandIntersectionsinSet_ and more...
+- code link [collections](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/collections)
+- code link [Banking System](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/bankingsystem)
+- code link [Insurance policy](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/insurancepolicy)
+- code link [Map Interface](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/mapinterface)
+- code link [Queue Interface](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/queue)
+- code link [Shopping Cart](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/shoppingcart)
+- code link [VotingSystem](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/votingsystem)
+---
+###  worked on 'java-dsa-practice' 
 **Date:** 17-jan-2026
 - worked on 'scenario-based' directory in branch java-dsa-practice
 - Solved 4 more Scenario Based problem.
@@ -328,3 +354,13 @@
 - Implemented Concepts like Interface, Inheritance, constructors and more.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 34 - java Streams on branch 'java-collections-practice'
+**Date:** 20-jan-2026
+- worked on java streams 
+- Learn about File Handling, Buffered Streams, ByteArray Streams
+- Implemented 10 programs on java streams
+- solved problems like _Read a Large File_, _Store and Retrieve_, _Efficient file copy_ and more..
+- code link [java streams](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/javastreams)
+--- 
+
+
