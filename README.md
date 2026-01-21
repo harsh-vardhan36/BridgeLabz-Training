@@ -12,11 +12,11 @@
 ---
 ### Day 2 - Collections
 **Date:** 17-jan-2026
-- Worked on java Generics
-- Learn about **type safety**, **reusability**, and **maintainability** in java
-- Learn about Upper Lower Bound wildCard '< ? >' for read only access.
-- Implemented 5 program in java generics
-- Solved problems like _SmartWareHouse Management_ , _Personalized Meal Plan Generator_ , _Multi-level Course_ and more...
+- Worked on java collections
+- Learn about **Interfaces** like _List_, _Map_, _Queue_ and more..
+- Implemented 20 program in java Interface.
+- Solved other collections programs as well like voting System, Shopping cart and Banking System.
+- Solved problems like _RotateElements_ , _NthfromEnd_ , _unionandIntersectionsinSet_ and more...
 - code link [collections](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/collections)
 - code link [Banking System](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/bankingsystem)
 - code link [Insurance policy](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/insurancepolicy)
@@ -25,3 +25,12 @@
 - code link [Shopping Cart](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/shoppingcart)
 - code link [VotingSystem](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/votingsystem)
 ---
+### Day 3 - java Streams
+**Date:** 20-jan-2026
+- worked on java streams
+- Learn about File Handling, Buffered Streams, ByteArray Streams
+- Implemented 10 programs on java streams
+- solved problems like _Read a Large File_, _Store and Retrieve_, _Efficient file copy_ and more..
+- code link [java streams](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/javastreams)
+--- 
+
