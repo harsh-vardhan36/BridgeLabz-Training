@@ -96,3 +96,43 @@ This branch tracks my progress log of Data Structures.
 - Solved problems like '_ArtExpo_', '_FleetManager_', '_IceCreamRush_', ''_SmartLibrary_'.
 - code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
 ---
+### Day 33 worked on 'java-dsa-practice' 
+**Date:** 19-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used Various Data Structure like BubbleSort, MergeSort, QuickSort" and more...
+- Solved problems like '_EduResults_', '_FlashDealz_', '_FitnessTracker_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 34 worked on 'java-dsa-practice' 
+**Date:** 20-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used Various Data Structure like insertionSort, MergeSort, QuickSort" and more...
+- Solved problems like '_MovieTime_', '_FoodFest_', '_GamerZone_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### Day 35 worked on 'java-dsa-practice' 
+**Date:** 21-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 2 more Scenario Based problem.
+- Used Various Data Structure like insertionSort, MergeSort, QuickSort" and more...
+- Solved problems like '_TailorShop_', '_MedWarehouse_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased)
+---
+### worked on 'java-dsa-practice' 
+**Date:** 22-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used concepts of Binary Search Tree to solve problems.
+- Solved problems like '_universityrecord_', '_ecommerceproduct_, '_musicapp_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased/binarysearchtree)
+---
+### Day 36 worked on 'java-dsa-practice' 
+**Date:** 22-jan-2026
+- worked on 'scenario-based' directory in branch java-dsa-practice
+- Solved 3 more Scenario Based problem.
+- Used concepts of AVL Tree to solve problems.
+- Solved problems like '_gamingapp_', '_onlineticketbooking_, '_hospitalqueue_'.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/com/src/com/scenariobased/avltree)
+---
