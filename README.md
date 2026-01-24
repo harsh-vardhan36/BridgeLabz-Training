@@ -125,3 +125,11 @@
 - Implemented Concepts like Interface, Inheritance, constructors and more.
 - code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
+### Day 33 - worked on Scenario Based Problems
+**Date:** 19-jan-2026
+- Worked on java-oops-practice branch
+- Solved 1 more problem in the Scenario based Folder
+- Created Solution of '_AddressBook_'.
+- Implemented Concepts like Encapsulation, Constructors, Access Modifiers, Collections and more.
+- code link [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com/addressbook)
+---
