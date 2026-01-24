@@ -30,7 +30,16 @@
 - worked on java streams
 - Learn about File Handling, Buffered Streams, ByteArray Streams
 - Implemented 10 programs on java streams
-- solved problems like _Read a Large File_, _Store and Retrieve_, _Efficient file copy_ and more..
+- solved problems like _Read a Large File_, _Store and Retrieve_, _Efficient file copy_ and more
 - code link [java streams](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/javastreams)
 --- 
+### worked on java-collections-practice
+**Date:** 20-jan-2026
+- worked on Exception Handling
+- Learn about different file exception handling like multiple catch, throw vs throws, try with resources and more..
+- Implemented 10 programs on Exception Handling.
+- Solved problems like compile time exception, runttime exception, user-defined exception and more.
+- code link [Exception Handling](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/com/src/com/exceptionhandling)
+---
+
 
