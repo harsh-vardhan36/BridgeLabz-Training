@@ -1,6 +1,6 @@
 package com.regex;
 import java.util.*;
-public class emailvalidator {
+public class emailvalidator{
 
 	public static void main(String [] args) {
 		Scanner in = new Scanner(System.in);
