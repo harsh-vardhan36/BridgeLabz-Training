@@ -1,4 +1,4 @@
-package com.JUNIT.calculatortesting;
+package com.junit.calculatortesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
