@@ -466,4 +466,5 @@
 - Worked on java8-programming-practice
 - Learn about Lambda expressions
 - Implemented concepts like Functional Interface, override, and more...
-- Solved 6 more programs
+- Solved 6 more programs of lambda expressions
+- Created solutions
