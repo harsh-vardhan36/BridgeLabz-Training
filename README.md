@@ -438,7 +438,7 @@
 - used concepts like collections, exceptionHandling, streams, Map<>, regex and more...
 - Code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/com/src/com)
 ---
-# Week 5 -  java - iostreams - practice
+# Week 5 =  java - iostreams - practice
 ---
 
 ### Day 37 - worked on java-iostreams-practice branch
@@ -459,4 +459,11 @@
 - Implemented Questions like Student, Car, JSON file , JSON array and JSON to XML Format.
 - code link [JSON](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/iostream/src/main/java/com/json)
 ---
-
+# week 6 = java8 - programming - practice
+---
+### Day 39 - worked on java8-programming-practice branch
+**Date:** 28-jan-2026
+- Worked on java8-programming-practice
+- Learn about Lambda expressions
+- Implemented concepts like Functional Interface, override, and more...
+- Solved 6 more programs
