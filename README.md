@@ -467,4 +467,16 @@
 - Learn about Lambda expressions
 - Implemented concepts like Functional Interface, override, and more...
 - Solved 6 more programs of lambda expressions
-- Created solutions
+- Created solutions like : _Ecommerce_, _Filtering_, _SmartHome_...
+- Code link [Lambda Expression](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/lambda)
+---
+### worked on Functional Interface in java8-programming-practice branch
+**Date:** 28-jan-2026
+- worked on java8-programming-practice branch
+- Learn about Functional Interface in java8.
+- Implemented concepts like Interface, Predicate<> , Function, Marker Interface.
+- Solved 15 programs on Functional Interface.
+- Created Solutions like : _Digital Payment_ , _Temperature ALert System_ , _Date Format Ulity_, _Data Tagging_ and more ...
+- Code link [Functional Interface](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/functional)
+---
+
