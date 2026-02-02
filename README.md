@@ -479,4 +479,30 @@
 - Created Solutions like : _Digital Payment_ , _Temperature ALert System_ , _Date Format Ulity_, _Data Tagging_ and more ...
 - Code link [Functional Interface](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/functional)
 ---
-
+### Day 40 - worked on java8-programming-practice
+**Date:** 29-Jan-2026
+- Worked on java8-programming-practice branch
+- Learn about Stream API
+- Implemented concepts like collect, foreach, ordered Streams and  unordered Streams
+- Solved 10 programs on Streams API. 
+- Created Solution like : _Hospital Doctor Availability_ , _Stock Price Logger_, _IOT Sensor Reading_ , _Logging Transcations_ and more ...
+- code link [Stream API](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/stream)
+---
+### Day 41 - worked on java8-programming-practice
+**Date:** 30-jan-2026
+- worked on java8-programming-practice
+- Learn about Collectors in java8.
+- Implemented concepts like _groupingBy()_ , _toMap()_ , _.collect_ and more ...
+- Solved 5 problems on java8 collectors.
+- Created Solutions like : _Student Result Grouping_ , _Word Frequency Counter_ , _Library Book Statistics_.
+- Code link [Collectors](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/collectors)
+---
+### Day 42 - worked on java8-programming-practice
+**Date:** 31-jan-2026
+- worked on Workshop problem in branch java8-programming-practice
+- Revise concepts about Collectors , static method, default method, functional Interface in java8.
+- Implemented concepts like FunctionalInterface , LambdaExpressions , staticMethod , defaultMethod and more ...
+- Solved 10 problems on java8 collectors.
+- Created Solution _'Smart City Transport & Service Management System'_.
+- Code link [Workshop](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/workshop)
+---
