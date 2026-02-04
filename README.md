@@ -46,3 +46,10 @@ This is my java8-programming-practice branch Here I am currently learning Java 8
 - Created Solution _'Smart City Transport & Service Management System'_.
 - Code link [Workshop](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/com/src/com/java8/workshop)
 ---
+### Worked on java8-programming-practice branch
+**Date** 31-jan-2026
+- worked on Scenario-Based Questions on java8 features: streamAPI
+- Implemented concepts of streamAPI to solve the problem statement.
+- Concepts used: _Filtering & Mapping_ , _Sorting & Limiting_ , _Grouping & Aggregation_ , _Conditional Matching_ and more..
+- code link [Scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/scenariobased/src/scenariobased)
+---
