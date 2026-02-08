@@ -1,6 +1,11 @@
 # BridgeLabz-Training
-This branch tracks my progress log of Data Structures.
-
+> ## This branch tracks my progress log of Data Structures
+> ### Here I have learned about Linkedlist :
+> * _Singly LinkedList_ , _Doubly Linkedlist_, _Circular LinkedList_.
+> ### Learn about Sorting alogirithm:
+> * Linear Search, Binary Search
+> ### Learn about Stack, Queue, HashMap, HashSet
+---
 # week 3 = java - dsa - practice.
 ### Day 18 - Worked On 'java-dsa-practice' branch
 **Date:** 03-jan-2026
