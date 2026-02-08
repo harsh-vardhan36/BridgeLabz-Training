@@ -1,5 +1,12 @@
 # BridgeLabz-Training
-This is my java8-programming-practice branch Here I am currently learning Java 8 Features.
+> * This is my java8-programming-practice branch Here I am currently learning Java 8 Features.
+> ## Learn about Functional Interface
+> * An Interface with only one abstract class
+> ## Learn about Lambda Expression
+> * It is a way of writing concise and clear Business logic or code.
+> ### Java 8 other features include:
+> * Method references, Stream API, marker Interface, Collectors, forEach()
+---
 # Week 6 = java8 - programming - practice
 ### Day 39 - worked on java8-programming-practice branch
 **Date:** 28-jan-2026
