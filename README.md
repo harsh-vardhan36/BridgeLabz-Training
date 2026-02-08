@@ -1,4 +1,5 @@
 ### week 7 = java-design-pattern-practice
+> # This branch tracks my 
 ---
 ### Day 43 - worked on java-design-pattern-practice branch
 **Date:** 01-feb-2026
