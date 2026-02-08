@@ -1,5 +1,9 @@
 # BridgeLabz-Training 
-This repository track my learning journey of iostreams branch. 
+> ## This repository track my learning journey of iostreams branch.
+> * In this week, I learn and implemented concepts like:
+> **CSV** , **JSON**.
+> * learn about  Reading/Writing a CSV and JSON File.
+--- 
 # Week 5 = java - iostreams - practice
 
 ### Day 37 - worked on java-iostreams-practice branch
