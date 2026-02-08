@@ -1,5 +1,9 @@
 # BridgeLabz-Training
-# Week 4 = java - collections - practice
+> ## This repository tracks my week 4 learning journey. This week I have learn about java collection Framework
+> ### Learn about Java Generics Framework topics include: 
+> * Generic Classes, Bounded Type Parameters,  Type safety, WildCard<T> 
+> ### Learn about Iterator, Map, Collection, and List.
+> * HashMap, HashSet, HashTable, TreeMap, ArrayList, Dequeue, stack, linkedlist.
 ---
 ### Day 1 – Java Generics
 **Date:** 16-jan-2026
