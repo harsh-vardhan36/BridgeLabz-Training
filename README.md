@@ -27,7 +27,7 @@
 - Solved Smart University Library Management System problem statement.
 - code link [Library Management System](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/librarymanagement)
 ---
-### Day 44 - worked on java-design-pattern-practice branch
+### Day 45 - worked on java-design-pattern-practice branch
 **Date:** 03-feb-2026
 - worked on gcr-codebase on a new branch: java-design-pattern-practice
 - Implemented concepts of Multithreading life cycle and States of thread in java.
@@ -35,14 +35,14 @@
 - Solved problem 'Download manager' using Multithreading.
 - code link [Multithreading](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/multithreading)
 ---
-### Day 45 - Worked on java-design-pattern-practice branch
+### Day 46 - Worked on java-design-pattern-practice branch
 **Date:** 04-feb-2026
 - Worked on gcr-codebase on branch java-design-pattern-practice
 - Implemented the concepts of Multithreading, threading , and threading constructors.
 - Solved problem: ThreadStateMonitor used TIMED_WAITING State in it.
 - Code link [MultiThreading](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/multithreading)
 ---
-### Day 46 - Worked on java-design-pattern-practice branch
+### Day 47 - Worked on java-design-pattern-practice branch
 **Date:** 05-feb-2026
 - Worked on gcr-codebase on the branch java-design-pattern-practice
 - Implemented the concepts of Multithreading, TERMINATED State, thread method like  _Start()_: _run()_
