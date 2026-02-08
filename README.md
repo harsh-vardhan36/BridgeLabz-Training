@@ -1,5 +1,20 @@
 # BridgeLabz-Training
+> ## This is my main branch of BridgeLabz Training. One can track my progress throughout this training, below!.
+> This repository contains the link to every branch where I have learned and pushed my code.
+---
+## Repository Branches:
+ * ### [core-java-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/blob/core-java-practice)
+ * ### [java-oops-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice)
+ * ### [java-dsa-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-dsa-practice)
+ * ### [java-Collections-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-collections-practice)
+ * ### [java-iostreams-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-iostreams-practice)
+ * ### [java8-programming-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice)
+ * ### [java-design-pattern-practice](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice)
+---
+
 # Week 1 = core - java - practice
+> ### This repository tracks my daily learning journey during the BridgeLabz Java Full Stack Program. Each day includes Git/GitHub activities, Java concepts, and committed code links.
+---
 ### Day 1 – Git & GitHub Setup
 **Date:** 16-Dec-2025
 - Installed and configured Git
@@ -66,6 +81,8 @@
 - code link: [Scenario Based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase).
 ---
 # week 2 = java - oops - practice
+> ### This is my Java-oops-practice Here i am Solving Object Oriented Programming programs and Scenario Based Question related to four pilliars of OOPs Concept.
+
 ### Day 11 - Switched to java-oops-practice Branch
 **Date:** 27-Dec-2025
 - Added Class and Object Program
@@ -134,6 +151,13 @@
 - code link [Scenario based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaScenarioBased/src/com)
 ---
 # Week 3 = java - dsa - practice 
+> ## This branch tracks my progress log of Data Structures
+> ### Here I have learned about Linkedlist :
+> * _Singly LinkedList_ , _Doubly Linkedlist_, _Circular LinkedList_.
+> ### Learn about Sorting alogirithm:
+> * Linear Search, Binary Search
+> ### Learn about Stack, Queue, HashMap, HashSet
+---
 ### Day 18 - Worked On 'java-dsa-practice' branch
 **Date:** 03-jan-2026
 - practice LinkedList problems
@@ -314,6 +338,11 @@
 ---
 # Week 4 = java - collections - practice
 ---
+> ### Learn about Java Generics Framework topics include: 
+> * Generic Classes, Bounded Type Parameters,  Type safety, WildCard<T> 
+> ### Learn about Iterator, Map, Collection, and List.
+> * HashMap, HashSet, HashTable, TreeMap, ArrayList, Dequeue, stack, linkedlist.
+---
 ### Day 31 – Java Generics
 **Date:** 16-jan-2026
 - Worked on java Generics in branch **java-collections-practice**
@@ -440,7 +469,11 @@
 ---
 # Week 5 =  java - iostreams - practice
 ---
-
+> ## This repository track my learning journey of iostreams branch.
+> * In this week, I learn and implemented concepts like:
+> **CSV** , **JSON**.
+> * learn about  Reading/Writing a CSV and JSON File.
+---
 ### Day 37 - worked on java-iostreams-practice branch
 **Date:** 25-jan-2026
 - worked on java-iostreams-practice branch
@@ -460,6 +493,14 @@
 - code link [JSON](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/iostream/src/main/java/com/json)
 ---
 # week 6 = java8 - programming - practice
+---
+> * This is my java8-programming-practice branch Here I am currently learning Java 8 Features.
+> ## Learn about Functional Interface
+> * An Interface with only one abstract class
+> ## Learn about Lambda Expression
+> * It is a way of writing concise and clear Business logic or code.
+> ### Java 8 other features include:
+> * Method references, Stream API, marker Interface, Collectors, forEach()
 ---
 ### Day 39 - worked on java8-programming-practice branch
 **Date:** 28-jan-2026
@@ -513,23 +554,62 @@
 - Concepts used: _Filtering & Mapping_ , _Sorting & Limiting_ , _Grouping & Aggregation_ , _Conditional Matching_ and more..
 - code link [Scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java8-programming-practice/scenariobased/src/scenariobased)
 ---
-### week 7 = java-design-pattern-practice
+## Week 7 = java-design-pattern-practice
 ---
-### Day 43 - worked on java-design-pattern-practice branch
-**Date:** 01-feb-2026
+> ## This branch tracks my week 7 journey, in which I have learned and implemented the concepts of Java Design principles and patterns & Multithreading.
+---
+### Day 43 - Study about Principles and Patterns in Java Design.
+**Date:** 01-Feb-2026
+- Study the basic concepts of design principles and Patterns in Java.
+- Some of the most used principles are :
+  > - **OCP**: _Open For Extension Close for Modification._
+  > - **SRP**: _Single Responsibility Principle_
+  > - **DRY**: _Don't Repeat Yourself_
+  > - **KISS**: _Keep It Simple, Stupid_
+- Learn about the patterns, and some well-known patterns are:
+  > - **Singleton Pattern**
+  > - **Factory Pattern**
+  > - **Builder Pattern**
+  > - **UML Diagram**
+---
+### Day 44 - worked on java-design-pattern-practice branch
+**Date:** 02-feb-2026
 - worked on gcr-codebase on a new branch: java-design-pattern-practice
 - Implemented concepts of design principles like GoF patterns.
 - Created one singleton LibraryCatalog to ensure only one instance of the catalog exists to prevent inconsistencies.
 - Implemented the Factory pattern so that the system can dynamically create user types at runtime.
-- Implemented the Builder pattern to constructs Book objects with optional attributes.
+- Implemented the Builder pattern to construct Book objects with optional attributes.
 - Solved Smart University Library Management System problem statement.
 - code link [Library Management System](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/librarymanagement)
 ---
 ### Day 44 - worked on java-design-pattern-practice branch
 **Date:** 03-feb-2026
 - worked on gcr-codebase on a new branch: java-design-pattern-practice
-- Implemented concepts of Multithreading life cycle and States of thread in java.
+- Implemented concepts of Multithreading life cycle and States of thread in Java.
 - Concepts learned _multi-threading_ , _Creating Threads Using Thread Class_ , _Thread Class vs Runnable Interface_ and many more...
-- Solved problems like 'Download manager', Banking System with multiple transcations and more ...
+- Solved problem 'Download manager' using Multithreading.
 - code link [Multithreading](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/multithreading)
 ---
+### Day 45 - Worked on java-design-pattern-practice branch
+**Date:** 04-feb-2026
+- Worked on gcr-codebase on the branch java-design-pattern-practice
+- Implemented the concepts of Multithreading, threading, and threading constructors.
+- Solved problem: ThreadStateMonitor used the TIMED_WAITING State in it.
+- Code link [MultiThreading](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/multithreading)
+---
+### Day 46 - Worked on java-design-pattern-practice branch
+**Date:** 05-feb-2026
+- Worked on gcr-codebase on the branch java-design-pattern-practice
+- Implemented the concepts of Multithreading, TERMINATED State, thread method like  _Start()_: _run()_
+- Solved problems like: restaurant order, ShopJob, using these concepts
+- code link [multithreading](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/com/src/com/multithreading)
+---
+### Day 47 - Worked on java-design-pattern-practice branch
+**Date:** 05-feb-2026
+- Worked on scenario-based directory on the java-design-pattern-practice branch
+- Implement a Customer class that represents a bank customer.
+- Created a driver program (Main class) that simulates multiple customers interacting with the bank concurrently.
+- Use Java's Thread class to represent customers performing transactions concurrently.
+- code link [scenario-based](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/java-design-pattern-practice/scenario-based/com/src/com/multithreading)
+---
+
