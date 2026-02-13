@@ -1,0 +1,112 @@
+
+
+CREATE DATABASE library_db;
+ USE library_db;
+ 
+ SELECT DATABASE();
++------------+
+| DATABASE() |
++------------+
+| library_db |
++------------+
+
+CREATE TABLE books (
+    ->     book_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     title VARCHAR(100) NOT NULL,
+    ->     author VARCHAR(100),
+    ->     category VARCHAR(50),
+    ->     total_copies INT NOT NULL,
+    ->     available_copies INT NOT NULL
+    -> );
+
+    
+ CREATE TABLE students (
+   ->     student_id INT PRIMARY KEY AUTO_INCREMENT,
+   ->     student_name VARCHAR(100) NOT NULL,
+   ->     department VARCHAR(50)
+   -> );
+    
+CREATE TABLE borrow_records (
+    ->     record_id INT PRIMARY KEY AUTO_INCREMENT,
+    -> 
+    ->     student_id INT,
+    ->     book_id INT,
+    -> 
+    ->     borrow_date DATE DEFAULT (CURRENT_DATE),
+    ->     due_date DATE,
+    ->     return_date DATE NULL,
+    -> 
+    ->     FOREIGN KEY (student_id) REFERENCES students(student_id),
+    ->     FOREIGN KEY (book_id) REFERENCES books(book_id)
+    -> );
+    
+ INSERT INTO books (title, author, category, total_copies, available_copies)
+    -> VALUES
+    -> ('Java Fundamentals', 'Herbert Schildt', 'Programming', 5, 5),
+    -> ('Database Systems', 'Ramakrishnan', 'DBMS', 3, 3),
+    -> ('Python Basics', 'Guido', 'Programming', 4, 4);
+    
+ INSERT INTO students (student_name, department)
+    -> VALUES
+    -> ('Harsh', 'CSE'),
+    -> ('Krishna', 'IT'),
+    -> ('Saksham', 'CSE');
+ 
+START TRANSACTION;
+UPDATE books
+    -> SET available_copies = available_copies - 1
+    -> WHERE book_id = 2 AND available_copies > 0;
+    
+ INSERT INTO borrow_records(student_id, book_id, due_date)
+    -> VALUES(1,2, CURRENT_DATE + INTERVAL 14 DAY);
+    
+ COMMIT;
+  SELECT 
+    ->     s.student_name,
+    ->     b.title,
+    ->     br.borrow_date,
+    ->     br.due_date,
+    ->     br.return_date
+    -> FROM borrow_records br
+    -> JOIN students s ON br.student_id = s.student_id
+    -> JOIN books b ON br.book_id = b.book_id
+    -> WHERE s.student_id = 1;
++--------------+------------------+-------------+------------+-------------+
+| student_name | title            | borrow_date | due_date   | return_date |
++--------------+------------------+-------------+------------+-------------+
+| Harsh        | Database Systems | 2026-02-09  | 2026-02-23 | 2026-02-09  |
++--------------+------------------+-------------+------------+-------------+
+
+SELECT *
+    -> FROM books
+    -> WHERE 
+    ->     title LIKE '%Java%'
+    ->     AND category = 'Programming'
+    ->     AND author LIKE '%Herbert%';
++---------+-------------------+-----------------+-------------+--------------+------------------+
+| book_id | title             | author          | category    | total_copies | available_copies |
++---------+-------------------+-----------------+-------------+--------------+------------------+
+|       1 | Java Fundamentals | Herbert Schildt | Programming |            5 |                5 |
++---------+-------------------+-----------------+-------------+--------------+------------------+
+
+SELECT *
+    -> FROM books
+    -> WHERE available_copies > 0;
++---------+-------------------+-----------------+-------------+--------------+------------------+
+| book_id | title             | author          | category    | total_copies | available_copies |
++---------+-------------------+-----------------+-------------+--------------+------------------+
+|       1 | Java Fundamentals | Herbert Schildt | Programming |            5 |                5 |
+|       2 | Database Systems  | Ramakrishnan    | DBMS        |            3 |                3 |
+|       3 | Python Basics     | Guido           | Programming |            4 |                4 |
++---------+-------------------+-----------------+-------------+--------------+------------------+
+
+SELECT *
+    -> FROM books
+    -> WHERE available_copies > 0;
++---------+-------------------+-----------------+-------------+--------------+------------------+
+| book_id | title             | author          | category    | total_copies | available_copies |
++---------+-------------------+-----------------+-------------+--------------+------------------+
+|       1 | Java Fundamentals | Herbert Schildt | Programming |            5 |                5 |
+|       2 | Database Systems  | Ramakrishnan    | DBMS        |            3 |                3 |
+|       3 | Python Basics     | Guido           | Programming |            4 |                4 |
++---------+-------------------+-----------------+-------------+--------------+------------------+
