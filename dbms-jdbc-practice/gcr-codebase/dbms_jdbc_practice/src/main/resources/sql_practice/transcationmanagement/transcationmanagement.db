@@ -1,0 +1,93 @@
+/* Transaction Management */
+
+ CREATE DATABASE bank_db;
+ USE bank_db;
+ 
+ SELECT DATABASE();
++------------+
+| DATABASE() |
++------------+
+| bank_db    |
++------------+
+
+CREATE TABLE account ( account_id INT PRIMARY KEY AUTO_INCREMENT, customer_name VARCHAR(50) NOT NULL, balance DOUBLE(11,3) NOT NULL );
+
+DESCRIBE account;
++---------------+--------------+------+-----+---------+----------------+
+| Field         | Type         | Null | Key | Default | Extra          |
++---------------+--------------+------+-----+---------+----------------+
+| account_id    | int          | NO   | PRI | NULL    | auto_increment |
+| customer_name | varchar(50)  | NO   |     | NULL    |                |
+| balance       | double(11,3) | NO   |     | NULL    |                |
++---------------+--------------+------+-----+---------+----------------+
+
+CREATE TABLE transactions (
+    ->     transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     from_account INT,
+    ->     to_account INT,
+    ->     amount DOUBLE(11,3) NOT NULL,
+    ->     transaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->     status VARCHAR(20),
+    -> 
+    ->     FOREIGN KEY (from_account) REFERENCES account(account_id),
+    ->     FOREIGN KEY (to_account) REFERENCES account(account_id)
+    -> );
+    
+ INSERT INTO account (customer_name, balance)
+    -> VALUES
+    -> ('Harsh', 50000),
+    -> ('Krishna', 30000),
+    -> ('Saksham', 45000);
+    
+SELECT * FROM account;
++------------+---------------+-----------+
+| account_id | customer_name | balance   |
++------------+---------------+-----------+
+|          1 | Harsh         | 50000.000 |
+|          2 | Krishna       | 30000.000 |
+|          3 | Saksham       | 45000.000 |
++------------+---------------+-----------+
+
+START TRANSACTION;
+UPDATE account
+    -> SET balance = balance - 5000
+    -> WHERE account_id = 1 AND balance >= 5000;
+
+ UPDATE account
+    -> SET balance = balance + 5000
+    -> WHERE account_id = 2;
+    
+ INSERT INTO transactions (from_account, to_account, amount, status)
+    -> VALUES (1, 2, 5000, 'SUCCESS');
+    
+  SELECT * FROM transactions;
++----------------+--------------+------------+----------+---------------------+---------+
+| transaction_id | from_account | to_account | amount   | transaction_time    | status  |
++----------------+--------------+------------+----------+---------------------+---------+
+|              1 |            1 |          2 | 5000.000 | 2026-02-09 15:51:43 | SUCCESS |
++----------------+--------------+------------+----------+---------------------+---------+
+    
+SELECT balance FROM account
+    -> Where account_id = 1;
++-----------+
+| balance   |
++-----------+
+| 45000.000 |
++-----------+
+
+
+SELECT * FROM account
+    -> where account_id = 1;
++------------+---------------+-----------+
+| account_id | customer_name | balance   |
++------------+---------------+-----------+
+|          1 | Harsh         | 45000.000 |
++------------+---------------+-----------+
+
+SELECT * FROM transactions
+    -> WHERE from_account = 1;
++----------------+--------------+------------+----------+---------------------+---------+
+| transaction_id | from_account | to_account | amount   | transaction_time    | status  |
++----------------+--------------+------------+----------+---------------------+---------+
+|              1 |            1 |          2 | 5000.000 | 2026-02-09 15:51:43 | SUCCESS |
++----------------+--------------+------------+----------+---------------------+---------+
