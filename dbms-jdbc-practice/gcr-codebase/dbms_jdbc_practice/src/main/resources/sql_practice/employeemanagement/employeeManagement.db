@@ -1,0 +1,97 @@
+
+/* Creating a database: D_employee */
+
+CREATE DATABASE  D_employee;
+USE D_employee;
+SELECT DATABASE();
+
++------------+
+| DATABASE() |
++------------+
+| d_employee |
++------------+
+
+/* Creating a table employee */
+
+CREATE TABLE employee( 
+id INT PRIMARY KEY AUTO_INCREMENT, 
+NAME VARCHAR(50), 
+salary DOUBLE(10,2), 
+age INT);
+
+DESCRIBE employee;
++--------+--------------+------+-----+---------+----------------+
+| Field  | Type         | Null | Key | Default | Extra          |
++--------+--------------+------+-----+---------+----------------+
+| id     | int          | NO   | PRI | NULL    | auto_increment |
+| NAME   | varchar(50)  | YES  |     | NULL    |                |
+| salary | double(10,2) | YES  |     | NULL    |                |
+| age    | int          | YES  |     | NULL    |                |
++--------+--------------+------+-----+---------+----------------+
+
+
+/* Performing operation: 1. Adding employee */
+
+INSERT INTO employee(id, NAME, salary, age) VALUES(1, 'HARSH VARDHAN', 78000, 22), (2, 'ABHIJEET', 21000, 28),
+
++----+---------------+----------+------+
+| id | NAME          | salary   | age  |
++----+---------------+----------+------+
+|  1 | HARSH VARDHAN | 78000.00 |   22 |
+|  2 | ABHIJEET      | 21000.00 |   24 |
++----+---------------+----------+------+
+
+INSERT INTO employee(NAME, salary, age) VALUES('KRISHNA', 29999, 23),('PRIYANSHU', 38000, 24),('SAKSHAM', 41000,22);
+
+/* Viewing all Employee */
+
+SELECT * FROM employee;
+
++----+---------------+----------+------+
+| id | NAME          | salary   | age  |
++----+---------------+----------+------+
+|  1 | HARSH VARDHAN | 78000.00 |   22 |
+|  2 | ABHIJEET      | 21000.00 |   24 |
+|  4 | KRISHNA       | 29999.00 |   23 |
+|  5 | PRIYANSHU     | 38000.00 |   24 |
+|  6 | SAKSHAM       | 41000.00 |   22 |
++----+---------------+----------+------+
+
+/* Update Salary */
+ 
+  UPDATE employee
+    -> SET salary = 81000
+    -> WHERE id = 1;
+
++----+---------------+----------+------+
+| id | NAME          | salary   | age  |
++----+---------------+----------+------+
+|  1 | HARSH VARDHAN | 81000.00 |   22 |
+|  2 | ABHIJEET      | 21000.00 |   24 |
+|  4 | KRISHNA       | 29999.00 |   23 |
+|  5 | PRIYANSHU     | 38000.00 |   24 |
+|  6 | SAKSHAM       | 41000.00 |   22 |
++----+---------------+----------+------+
+
+/* Delete Employee */
+ DELETE FROM employee
+    -> WHERE id = 6;
+   +----+---------------+----------+------+
+| id | NAME          | salary   | age  |
++----+---------------+----------+------+
+|  1 | HARSH VARDHAN | 81000.00 |   22 |
+|  2 | ABHIJEET      | 21000.00 |   24 |
+|  4 | KRISHNA       | 29999.00 |   23 |
+|  5 | PRIYANSHU     | 38000.00 |   24 |
++----+---------------+----------+------+
+
+
+/* Search by NAME */
+
+SELECT * FROM employee
+    -> WHERE NAME = 'HARSH VARDHAN';
++----+---------------+----------+------+
+| id | NAME          | salary   | age  |
++----+---------------+----------+------+
+|  1 | HARSH VARDHAN | 81000.00 |   22 |
++----+---------------+----------+------+
