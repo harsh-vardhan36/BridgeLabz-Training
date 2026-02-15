@@ -1,0 +1,39 @@
+show tables;
++-------------------+
+| Tables_in_jdbc_db |
++-------------------+
+| students          |
++-------------------+
+
+SELECT * FROM students;
++----+---------------+--------------------------+------+-------+-----------------+
+| id | name          | email                    | age  | grade | enrollment_date |
++----+---------------+--------------------------+------+-------+-----------------+
+| 13 | Harsh Vardhan | hrshvardhan@proton.me    |   20 | A     | 2026-02-15      |
+| 14 | Hare Krishna  | harekrishna@god.universe |   22 | B     | 2026-02-15      |
++----+---------------+--------------------------+------+-------+-----------------+
+
+UPDATE students SET name = 'HareKrishna', email = "harekrushna@god.universe ", age = 23, grade = 'A' WHERE id = 14";
+
+
+SELECT * FROM students;
++----+---------------+--------------------------+------+-------+-----------------+
+| id | name          | email                    | age  | grade | enrollment_date |
++----+---------------+--------------------------+------+-------+-----------------+
+| 13 | Harsh Vardhan | hrshvardhan@proton.me    |   20 | A     | 2026-02-15      |
+| 14 | HareKrishna   | harekrushna@god.universe |   23 | A     | 2026-02-15      |
++----+---------------+--------------------------+------+-------+-----------------+
+
+
+SELECT COUNT(*) FROM students WHERE id = 13;
+DELETE FROM students WHERE id = 13;
+
+SELECT * FROM students;
++----+-------------+--------------------------+------+-------+-----------------+
+| id | name        | email                    | age  | grade | enrollment_date |
++----+-------------+--------------------------+------+-------+-----------------+
+| 14 | HareKrishna | harekrushna@god.universe |   23 | A     | 2026-02-15      |
++----+-------------+--------------------------+------+-------+-----------------+
+
+
+
