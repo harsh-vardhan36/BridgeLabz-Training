@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vardaan Assistant</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 780px;
+      display: flex;
+      flex-direction: column;
+      height: 92vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 1.25rem 0 1rem;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #e94560, #0f3460, #53d8fb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #8899aa;
+      font-size: 0.9rem;
+      margin-top: 0.3rem;
+    }
+
+    .chat-window {
+      flex: 1;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      scroll-behavior: smooth;
+    }
+
+    .chat-window::-webkit-scrollbar { width: 6px; }
+    .chat-window::-webkit-scrollbar-track { background: transparent; }
+    .chat-window::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+    .message {
+      max-width: 78%;
+      padding: 0.75rem 1rem;
+      border-radius: 14px;
+      line-height: 1.55;
+      font-size: 0.95rem;
+      word-break: break-word;
+      white-space: pre-wrap;
+      animation: fadeIn 0.2s ease;
+    }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+    .message.user {
+      align-self: flex-end;
+      background: linear-gradient(135deg, #e94560, #c0392b);
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+
+    .message.assistant {
+      align-self: flex-start;
+      background: rgba(255, 255, 255, 0.09);
+      color: #dde8f0;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-bottom-left-radius: 4px;
+    }
+
+    .message.error {
+      align-self: flex-start;
+      background: rgba(233, 69, 96, 0.15);
+      border: 1px solid rgba(233, 69, 96, 0.35);
+      color: #f8a5b3;
+      border-bottom-left-radius: 4px;
+    }
+
+    .typing-indicator {
+      align-self: flex-start;
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 14px;
+      border-bottom-left-radius: 4px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .typing-indicator span {
+      width: 7px;
+      height: 7px;
+      background: #8899aa;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+
+    .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes bounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-5px); }
+    }
+
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #4a5568;
+      gap: 0.5rem;
+    }
+
+    .empty-state svg { width: 48px; height: 48px; opacity: 0.4; }
+    .empty-state p { font-size: 0.95rem; }
+
+    .input-area {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    textarea {
+      flex: 1;
+      resize: none;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #e2e8f0;
+      font-size: 0.95rem;
+      font-family: inherit;
+      padding: 0.75rem 1rem;
+      outline: none;
+      max-height: 140px;
+      min-height: 48px;
+      transition: border-color 0.2s;
+    }
+
+    textarea::placeholder { color: #556070; }
+    textarea:focus { border-color: rgba(233, 69, 96, 0.55); }
+
+    button#sendBtn {
+      background: linear-gradient(135deg, #e94560, #c0392b);
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 1.1rem;
+      cursor: pointer;
+      padding: 0 1.1rem;
+      transition: opacity 0.2s, transform 0.1s;
+      flex-shrink: 0;
+      align-self: flex-end;
+      height: 48px;
+      width: 52px;
+    }
+
+    button#sendBtn:hover:not(:disabled) { opacity: 0.88; }
+    button#sendBtn:active:not(:disabled) { transform: scale(0.96); }
+    button#sendBtn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    #charCount {
+      font-size: 0.75rem;
+      color: #556070;
+      text-align: right;
+      margin-top: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚡ Vardaan Assistant</h1>
+      <p>Powered by Groq · Ask me anything</p>
+    </header>
+
+    <div class="chat-window" id="chatWindow">
+      <div class="empty-state" id="emptyState">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="M8 10h.01M12 10h.01M16 10h.01M21 16c0 1.1-.9 2-2 2H5l-4 4V6a2 2 0 012-2h16a2 2 0 012 2v10z"/>
+        </svg>
+        <p>Start a conversation with Vardaan Assistant</p>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <textarea
+        id="userInput"
+        rows="1"
+        placeholder="Type a message… (Enter to send, Shift+Enter for new line)"
+        maxlength="4000"
+      ></textarea>
+      <button id="sendBtn" title="Send" aria-label="Send message">➤</button>
+    </div>
+    <div id="charCount">0 / 4000</div>
+  </div>
+
+  <script>
+    const chatWindow = document.getElementById('chatWindow');
+    const emptyState = document.getElementById('emptyState');
+    const userInput = document.getElementById('userInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const charCount = document.getElementById('charCount');
+
+    const conversationHistory = [];
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function addMessage(role, text) {
+      if (emptyState.parentNode) emptyState.remove();
+
+      const div = document.createElement('div');
+      div.className = `message ${role}`;
+      div.textContent = text;
+      chatWindow.appendChild(div);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+      return div;
+    }
+
+    function showTyping() {
+      if (emptyState.parentNode) emptyState.remove();
+      const el = document.createElement('div');
+      el.className = 'typing-indicator';
+      el.id = 'typing';
+      el.innerHTML = '<span></span><span></span><span></span>';
+      chatWindow.appendChild(el);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    function removeTyping() {
+      const el = document.getElementById('typing');
+      if (el) el.remove();
+    }
+
+    async function sendMessage() {
+      const text = userInput.value.trim();
+      if (!text) return;
+
+      userInput.value = '';
+      userInput.style.height = 'auto';
+      charCount.textContent = '0 / 4000';
+      sendBtn.disabled = true;
+
+      addMessage('user', text);
+      conversationHistory.push({ role: 'user', content: text });
+
+      showTyping();
+
+      try {
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: conversationHistory }),
+        });
+
+        const data = await response.json();
+        removeTyping();
+
+        if (!response.ok || data.error) {
+          addMessage('error', '⚠ ' + (data.error || 'An unexpected error occurred.'));
+        } else {
+          const reply = data.reply;
+          conversationHistory.push({ role: 'assistant', content: reply });
+          addMessage('assistant', reply);
+        }
+      } catch (err) {
+        removeTyping();
+        addMessage('error', '⚠ Network error: could not reach the server.');
+      }
+
+      sendBtn.disabled = false;
+      userInput.focus();
+    }
+
+    sendBtn.addEventListener('click', sendMessage);
+
+    userInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    userInput.addEventListener('input', () => {
+      userInput.style.height = 'auto';
+      userInput.style.height = Math.min(userInput.scrollHeight, 140) + 'px';
+      charCount.textContent = `${userInput.value.length} / 4000`;
+    });
+  </script>
+</body>
+</html>

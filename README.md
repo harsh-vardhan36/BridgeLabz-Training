@@ -709,3 +709,85 @@ Execute Query → Process Results → Close Resources
 > * [**SavePoint Example**](https://github.com/harsh-vardhan36/BridgeLabz-Training/blob/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/dbms_jdbc_practice/src/main/java/com/jdbc/Transcation/SavepointExample.java)
 ---
 
+
+---
+
+# Vardaan Assistant — AI Chat App
+
+> A lightweight AI chat assistant powered by [Groq](https://groq.com/), deployed via Vercel serverless functions.
+> Live demo: **https://vardaan-assistant.vercel.app**
+
+## Project Structure
+
+```
+vardaan-assistant/
+├── api/
+│   └── chat.py          # Vercel Python serverless function (POST /api/chat)
+├── public/
+│   └── index.html       # Chat UI (served as static file)
+├── app.py               # Local Flask development server
+├── requirements.txt     # Python dependencies
+├── .env.example         # Environment variable template
+├── .gitignore           # Ignores .env and build artifacts
+└── vercel.json          # Vercel deployment configuration
+```
+
+## Local Development
+
+**Prerequisites:** Python 3.9+, pip
+
+```bash
+cd vardaan-assistant
+
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Set up environment variables
+cp .env.example .env
+# Edit .env and set GROQ_API_KEY to your key from https://console.groq.com
+
+# 3. Start the Flask dev server
+python app.py
+# Open http://localhost:5000
+```
+
+## Deploying to Vercel
+
+1. **Import** the repository at [vercel.com/new](https://vercel.com/new).
+2. In the project settings, set the **Root Directory** to `vardaan-assistant`.
+3. Add the environment variable:
+   - **Name:** `GROQ_API_KEY`
+   - **Value:** your Groq API key (from https://console.groq.com)
+4. Click **Deploy**.
+
+> **Never commit your `.env` file or hardcode the API key in source code.**
+> The `.gitignore` in `vardaan-assistant/` already excludes `.env`.
+
+## Environment Variables
+
+| Variable       | Required | Description                              |
+|----------------|----------|------------------------------------------|
+| `GROQ_API_KEY` | Yes      | API key from https://console.groq.com    |
+
+## API Endpoint
+
+`POST /api/chat`
+
+**Request body (JSON):**
+```json
+{ "messages": [{ "role": "user", "content": "Hello!" }] }
+```
+or shorthand:
+```json
+{ "message": "Hello!" }
+```
+
+**Success response:**
+```json
+{ "reply": "Hi there! How can I help you?" }
+```
+
+**Error response:**
+```json
+{ "error": "Descriptive error message" }
+```
