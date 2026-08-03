@@ -42,3 +42,39 @@ A DBMS centralizes data management to resolve flat-file limitations by:
 Today's practical session focused on writing and executing various DDL and DML queries to perform standard CRUD (Create, Read, Update, Delete) operations.
 
 ---
+### Day 2: ER Diagrams, Junction Tables, and Database Normalization
+* **Focus Area:** Entity-Relationship (ER) Diagrams, Many-to-Many Relationships, Data Anomalies, and Normalization up to Third Normal Form (3NF).
+* **Code & Resources:** [View Day 2 Directory](https://github.comBridgeLabz-Training/tree/Refresher-Training/Day2)
+
+#### Core Concepts Covered
+
+##### 1. ER Diagram Realization (Many-to-Many Relationships)
+To model complex associations such as a Health Clinic system where one patient visits multiple doctors and one doctor treats multiple patients, a direct relationship is impossible. We resolve this many-to-many relationship using a **Junction Entity** (or associative table). The junction table breaks the complex relationship down by storing Foreign Keys that reference the Primary Keys of both parent entities.
+
+##### 2. Database Normalization (1NF, 2NF, 3NF)
+Normalization is the algorithmic process of organizing data in a database to reduce redundancy and eliminate destructive data anomalies:
+* **Insertion Anomaly:** Inability to add data without the presence of other unrelated data attributes.
+* **Update Anomaly:** Data inconsistency caused by updating data in one place while copies elsewhere remain unchanged.
+* **Deletion Anomaly:** Unintentional loss of distinct facts due to deleting an unrelated record.
+
+##### 3. Normal Form Progressions Demonstrated
+* **Unnormalized/Flat Designs:** Storing all patient, doctor, and appointment data in a single wide table causes heavy update anomalies (e.g., updating a patient's phone number requires altering multiple rows).
+* **First & Second Normal Form:** Splitting independent entities into distinct tables (`patient` and `doctor`) connected through an associative table (`appointment`) ensures updates hit exactly one row.
+* **Third Normal Form (3NF):** Elimination of **Transitive Dependencies** (where a non-prime attribute depends on another non-prime attribute). Removing a department description from a doctor table and isolating it into its own `department` relational master table fulfills 3NF.
+
+#### Live Coding Implementation Script
+
+```sql
+-- ============================================================
+-- LIVE CODING SCRIPT — Health Clinic App
+-- Target: MySQL / MariaDB 
+-- ============================================================
+
+CREATE DATABASE IF NOT EXISTS health_clinic;
+USE health_clinic;
+
+-- ============================================================
+-- TOPIC 1 — ER DIAGRAM LIVE BUILD
+-- ============================================================
+
+```
