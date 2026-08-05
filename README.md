@@ -65,3 +65,28 @@ Triggers ensure **real-time analytics**, **data integrity**, and **automation**.
 Stored procedures simplify integration with Java CLI applications by providing a clean, callable interface for database operations.
 
 ---
+# Day 4: HealthClinic CLI Application (Java + JDBC)
+
+## Focus Area
+Building a command-line interface (CLI) application to interact with the HealthClinic database using JDBC.
+
+## Code & Resources
+[View Day 4 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day4)
+
+---
+
+## Core Concepts Covered
+- **JDBC Workflow:** Driver loading, connection establishment, statement execution, result processing, and resource management  
+- **POJO Classes:** Mapping database rows into Java objects for clean data handling  
+- **PreparedStatement:** Parameterized queries to prevent SQL injection  
+- **CLI Integration:** Menu-driven interface for CRUD operations on doctors, patients, and appointments  
+
+## Application Features
+- Add new doctors and patients  
+- Book, update, and cancel appointments  
+- View patient history and doctor schedules  
+
+## Summary
+This project demonstrates **end-to-end integration**:  
+**SQL schema design → JDBC connection → Java POJO mapping → CLI interaction**
+---
