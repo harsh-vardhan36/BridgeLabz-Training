@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+	<bean 
+   id = "author"
+   class= "com.library_management_xml.model.Author">
+<constructor-arg value = "Robert Martin"/>
+  </bean>
+
+	<bean
+	id = "publisher"
+	class = "com.library_management_xml.model.Publisher">
+	<constructor-arg value = "Penguin Publications"/>
+		</bean>
+	<bean 
+	id = "book"
+	class = "com.library_management_xml.model.Book">
+	<constructor-arg value ="Human Anatomy"/>
+	<constructor-arg value="269.99"/>
+	<constructor-arg ref="author"/>
+	<constructor-arg ref="publisher"/>
+	</bean>
+	<bean 
+	id = "library"
+	class="com.library_management_xml.model.LibraryService">
+	<property name="book" ref="book"/>
+	</bean>
+	
+</beans>
