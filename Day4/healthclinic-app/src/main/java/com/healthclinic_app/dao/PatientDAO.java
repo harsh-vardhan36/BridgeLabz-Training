@@ -79,16 +79,25 @@ public class PatientDAO {
         }
     }
 
-    // Delete patient
+    // Delete patient (plain single-table delete - fails if the patient
+    // still has appointments/bills referencing them; use
+    // PatientService.deletePatientCascade() for a safe cascading delete)
     public void deletePatient(int id) {
         String sql = "DELETE FROM patients WHERE patientId=?";
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
             ps.setInt(1, id);
-            ps.executeUpdate();
-            System.out.println("Patient deleted successfully!");
+            int rows = ps.executeUpdate();
+            if (rows > 0) {
+                System.out.println("Patient deleted successfully!");
+            } else {
+                System.out.println("No patient found with that ID.");
+            }
 
+        } catch (SQLIntegrityConstraintViolationException e) {
+            System.out.println("Cannot delete this patient: they still have appointments/bills " +
+                    "on record. Use the cascading delete option instead.");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -18,7 +18,7 @@ public class DoctorTableSetup {
                          "joinedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP" +
                          ")";
             stmt.executeUpdate(sql);
-            System.out.println("Doctors table created successfully!");
+           // System.out.println("Doctors table created successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();

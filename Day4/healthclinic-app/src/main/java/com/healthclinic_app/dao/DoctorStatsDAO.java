@@ -7,23 +7,27 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Reads from the doctor_stats table. That table is no longer computed
+ * here with COUNT/GROUP BY - it is kept up to date automatically by
+ * trg_after_appointment_insert every time a new appointment is booked,
+ * which is the whole point of having the trigger.
+ */
 public class DoctorStatsDAO {
 
-    // If using a view, query directly
     public DoctorStats getStatsByDoctorId(int doctorId) {
-        String sql = "SELECT doctorId, COUNT(patientId) AS totalPatients " +
-                     "FROM appointments WHERE doctorId=? GROUP BY doctorId";
+        String sql = "SELECT doctorId, totalPatients FROM doctor_stats WHERE doctorId = ?";
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
             ps.setInt(1, doctorId);
-            ResultSet rs = ps.executeQuery();
-
-            if (rs.next()) {
-                DoctorStats stats = new DoctorStats();
-                stats.setDoctorId(rs.getInt("doctorId"));
-                stats.setTotalPatients(rs.getInt("totalPatients"));
-                return stats;
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    DoctorStats stats = new DoctorStats();
+                    stats.setDoctorId(rs.getInt("doctorId"));
+                    stats.setTotalPatients(rs.getInt("totalPatients"));
+                    return stats;
+                }
             }
 
         } catch (Exception e) {
@@ -32,11 +36,9 @@ public class DoctorStatsDAO {
         return null;
     }
 
-    // Get stats for all doctors
     public List<DoctorStats> getAllDoctorStats() {
         List<DoctorStats> statsList = new ArrayList<>();
-        String sql = "SELECT doctorId, COUNT(patientId) AS totalPatients " +
-                     "FROM appointments GROUP BY doctorId";
+        String sql = "SELECT doctorId, totalPatients FROM doctor_stats ORDER BY doctorId";
         try (Connection conn = DBConnection.getConnection();
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {

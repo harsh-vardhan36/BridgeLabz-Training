@@ -13,7 +13,7 @@ public class SpecializationTableSetup {
                          "specialization VARCHAR(100) NOT NULL" +
                          ")";
             stmt.executeUpdate(sql);
-            System.out.println("Specializations table created successfully!");
+      //      System.out.println("Specializations table created successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();

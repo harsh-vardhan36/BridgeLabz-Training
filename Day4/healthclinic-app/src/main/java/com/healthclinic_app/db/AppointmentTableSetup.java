@@ -19,7 +19,7 @@ public class AppointmentTableSetup {
                          "FOREIGN KEY (patientId) REFERENCES patients(patientId)" +
                          ")";
             stmt.executeUpdate(sql);
-            System.out.println("Appointments table created successfully!");
+           // System.out.println("Appointments table created successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();

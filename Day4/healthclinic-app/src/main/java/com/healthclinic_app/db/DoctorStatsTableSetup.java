@@ -14,7 +14,7 @@ public class DoctorStatsTableSetup {
                          "FOREIGN KEY (doctorId) REFERENCES doctors(doctorId)" +
                          ")";
             stmt.executeUpdate(sql);
-            System.out.println("DoctorStats table created successfully!");
+       //     System.out.println("DoctorStats table created successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();

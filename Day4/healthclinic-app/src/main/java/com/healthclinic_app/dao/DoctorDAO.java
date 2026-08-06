@@ -86,9 +86,16 @@ public class DoctorDAO {
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
             ps.setInt(1, id);
-            ps.executeUpdate();
-            System.out.println("Doctor deleted successfully!");
+            int rows = ps.executeUpdate();
+            if (rows > 0) {
+                System.out.println("Doctor deleted successfully!");
+            } else {
+                System.out.println("No doctor found with that ID.");
+            }
 
+        } catch (SQLIntegrityConstraintViolationException e) {
+            System.out.println("Cannot delete this doctor: they still have appointments, " +
+                    "bills or stats on record. Cancel/delete those first.");
         } catch (Exception e) {
             e.printStackTrace();
         }

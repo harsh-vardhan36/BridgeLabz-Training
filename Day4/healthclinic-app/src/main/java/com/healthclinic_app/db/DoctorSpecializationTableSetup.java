@@ -16,7 +16,7 @@ public class DoctorSpecializationTableSetup {
                          "FOREIGN KEY (spId) REFERENCES specializations(spId)" +
                          ")";
             stmt.executeUpdate(sql);
-            System.out.println("Doctor-Specialization mapping table created successfully!");
+           // System.out.println("Doctor-Specialization mapping table created successfully!");
 
         } catch (Exception e) {
             e.printStackTrace();
