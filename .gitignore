@@ -1,0 +1,28 @@
+# Eclipse & STS specific files
+.metadata/
+bin/
+target/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Project-specific settings
+.settings/
+.idea/
+*.launch
+*.classpath
+*.project
+
+# Maven build artifacts
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+*.war
+*.jar
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
