@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Greeting - GreetingApp</title>
+
+    <link rel="stylesheet"
+          th:href="@{/css/style.css}">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        GreetingApp
+    </div>
+
+    <nav>
+
+        <a th:href="@{/greeting}">
+            Greeting
+        </a>
+
+        <a th:href="@{/logout}">
+            Logout
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="greeting-container">
+
+    <div class="greeting-card">
+
+        <div class="greeting-icon">
+            Hello!
+        </div>
+
+
+        <h1>
+
+            Welcome,
+
+            <span th:text="${name}">
+                User
+            </span>!
+
+        </h1>
+
+
+        <p>
+            You have successfully logged into GreetingApp.
+        </p>
+
+
+        <a
+            class="btn primary"
+            th:href="@{/logout}">
+
+            Logout
+
+        </a>
+
+    </div>
+
+</main>
+
+</body>
+
+</html>

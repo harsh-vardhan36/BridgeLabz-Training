@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>GreetingApp</title>
+
+    <link rel="stylesheet"
+          th:href="@{/css/style.css}">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        GreetingApp
+    </div>
+
+    <nav>
+
+        <a th:href="@{/}">
+            Home
+        </a>
+
+        <a th:href="@{/login}">
+            Login
+        </a>
+
+        <a th:href="@{/register}">
+            Register
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Welcome to GreetingApp
+        </h1>
+
+        <p>
+            A simple Spring Boot application
+            with Thymeleaf, JPA and MySQL.
+        </p>
+
+        <div class="buttons">
+
+            <a class="btn primary"
+               th:href="@{/register}">
+                Create Account
+            </a>
+
+            <a class="btn secondary"
+               th:href="@{/login}">
+                Login
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+
+</html>
