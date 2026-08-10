@@ -90,3 +90,61 @@ Building a command-line interface (CLI) application to interact with the HealthC
 This project demonstrates **end-to-end integration**:  
 **SQL schema design → JDBC connection → Java POJO mapping → CLI interaction**
 ---
+
+# Day 5: Spring Core Configuration
+
+## Focus Area
+
+Working with the three major Spring configuration approaches: **XML-based, Annotation-based, and Java-based configuration**.
+
+## Code & Resources
+
+[View Day 5 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day5)
+
+## Core Concepts Covered
+
+- **XML-Based Configuration:** Configuring Spring Beans using `applicationContext.xml`
+- **Annotation-Based Configuration:** Using annotations such as `@Component`, `@Autowired`, and component scanning
+- **Java-Based Configuration:** Using `@Configuration` and `@Bean`
+- **Dependency Injection:** Constructor-based dependency injection
+- **IoC Container:** Understanding how Spring creates and manages Beans
+
+## Summary
+
+Implemented the same Spring Core concepts using different configuration approaches and understood how Spring manages object creation and dependencies through the IoC Container.
+
+---
+
+# Day 6: MyGreetingApp – Spring MVC
+
+## Focus Area
+
+Building a basic **Spring MVC web application** named `MyGreetingApp` with Controller, Service, and Model layers.
+
+## Code & Resources
+
+[View Day 6 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day6)
+
+## Core Concepts Covered
+
+- **Spring MVC Architecture**
+- **Controller Layer:** Handling requests using `@Controller`, `@GetMapping`, and `@PostMapping`
+- **Service Layer:** Managing application/business logic
+- **Model Layer:** Creating POJO classes for application data
+- **Dependency Injection:** Using constructor injection
+- **Form Handling:** Processing user registration and login requests
+- **Request-Response Flow:** Understanding how requests move through Controller → Service → Model
+
+## Application Features
+
+- User Registration
+- User Login
+- Greeting functionality
+- Controller-Service integration
+- Basic MVC-based request handling
+
+## Summary
+
+Built `MyGreetingApp` to understand how **Spring MVC** works and how the Spring Core concepts of **IoC and Dependency Injection** are applied in a web application.
+
+---
