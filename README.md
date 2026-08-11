@@ -148,3 +148,48 @@ Building a basic **Spring MVC web application** named `MyGreetingApp` with Contr
 Built `MyGreetingApp` to understand how **Spring MVC** works and how the Spring Core concepts of **IoC and Dependency Injection** are applied in a web application.
 
 ---
+
+# Day 7: ContactApp – Spring Boot + H2 Database
+
+## Focus Area
+
+Building a **ContactApp** using **Spring Boot** with an **H2 in-memory database** and implementing complete **CRUD (Create, Read, Update, Delete)** operations.
+
+## Code & Resources
+
+[View Day 7 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day7)
+
+## Core Concepts Covered
+
+- **Spring Boot:** Creating and configuring a Spring Boot application
+- **Spring Web:** Handling HTTP requests and responses
+- **REST APIs:** Creating RESTful endpoints for contact management
+- **H2 Database:** Using an in-memory database for storing contact information
+- **Spring Data JPA:** Connecting the application with the database and performing database operations
+- **Entity Mapping:** Creating entity classes using `@Entity` and mapping Java objects to database tables
+- **Repository Layer:** Using `JpaRepository` for database access
+- **CRUD Operations:** Implementing Create, Read, Update, and Delete functionality
+- **Dependency Injection:** Using Spring's dependency injection to manage application components
+- **Layered Architecture:** Understanding the flow between Controller → Service → Repository → Database
+
+## Application Features
+
+- Add a new contact
+- Get all contacts
+- Get a contact by ID
+- Update an existing contact
+- Delete a contact
+- Store contact data using the H2 database
+- Expose CRUD functionality through REST APIs
+
+## CRUD Operations
+
+- **Create:** Add a new contact to the database
+- **Read:** Retrieve all contacts or a specific contact by ID
+- **Update:** Modify an existing contact
+- **Delete:** Remove a contact from the database
+
+## Summary
+
+Built `ContactApp` using **Spring Boot, Spring Data JPA, and H2 Database** to understand how REST APIs interact with a relational database. Implemented complete **CRUD operations** using a layered architecture consisting of **Controller → Service → Repository → H2 Database**.
+```
