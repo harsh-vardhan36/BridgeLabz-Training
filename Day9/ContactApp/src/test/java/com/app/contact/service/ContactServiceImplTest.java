@@ -19,6 +19,7 @@ import com.app.contact.dto.ContactRequest;
 import com.app.contact.dto.ContactResponse;
 import com.app.contact.entity.Contact;
 import com.app.contact.exception.ContactNotFoundException;
+import com.app.contact.mapper.ContactMapper;
 import com.app.contact.repository.ContactRepository;
 
 @ExtendWith(MockitoExtension.class)
@@ -27,13 +28,15 @@ class ContactServiceImplTest {
     @Mock
     private ContactRepository contactRepository;
 
+    @Mock
+    private ContactMapper contactMapper;
+
     @InjectMocks
     private ContactServiceImpl contactServiceImpl;
 
 
+        // CREATE
     
-    // checking CREATE method 
- 
 
     @Test
     void createContact_shouldCreateContactSuccessfully() {
@@ -47,7 +50,7 @@ class ContactServiceImplTest {
         request.setPhone("9876543210");
         request.setSecondaryPhone("9123456780");
 
-        Contact savedContact = new Contact(
+        Contact contact = new Contact(
                 "Harsh",
                 "Vardhan",
                 "harsh@gmail.com",
@@ -55,12 +58,30 @@ class ContactServiceImplTest {
                 "9123456780"
         );
 
+        Contact savedContact = contact;
+
+        ContactResponse expectedResponse = new ContactResponse();
+
+        expectedResponse.setFirstName("Harsh");
+        expectedResponse.setLastName("Vardhan");
+        expectedResponse.setEmail("harsh@gmail.com");
+        expectedResponse.setPhone("9876543210");
+        expectedResponse.setSecondaryPhone("9123456780");
+
+        when(contactMapper.toEntity(request))
+                .thenReturn(contact);
+
         when(contactRepository.save(any(Contact.class)))
                 .thenReturn(savedContact);
+
+        when(contactMapper.toResponse(savedContact))
+                .thenReturn(expectedResponse);
+
 
         // Act
         ContactResponse response =
                 contactServiceImpl.createContact(request);
+
 
         // Assert
         assertEquals("Harsh", response.getFirstName());
@@ -69,13 +90,14 @@ class ContactServiceImplTest {
         assertEquals("9876543210", response.getPhone());
         assertEquals("9123456780", response.getSecondaryPhone());
 
+
         // Verify
-        verify(contactRepository).save(any(Contact.class));
+        verify(contactMapper).toEntity(request);
+        verify(contactRepository).save(contact);
+        verify(contactMapper).toResponse(savedContact);
     }
 
-
-    
-    // checking GET ALL method
+    // GET ALL
    
 
     @Test
@@ -98,24 +120,52 @@ class ContactServiceImplTest {
                 null
         );
 
+        ContactResponse response1 = new ContactResponse();
+
+        response1.setFirstName("Harsh");
+        response1.setLastName("Vardhan");
+        response1.setEmail("harsh@gmail.com");
+        response1.setPhone("9876543210");
+        response1.setSecondaryPhone("9123456780");
+
+        ContactResponse response2 = new ContactResponse();
+
+        response2.setFirstName("Rahul");
+        response2.setLastName("Kumar");
+        response2.setEmail("rahul@gmail.com");
+        response2.setPhone("8765432109");
+
         when(contactRepository.findAll())
                 .thenReturn(List.of(contact1, contact2));
+
+        when(contactMapper.toResponse(contact1))
+                .thenReturn(response1);
+
+        when(contactMapper.toResponse(contact2))
+                .thenReturn(response2);
+
 
         // Act
         List<ContactResponse> responses =
                 contactServiceImpl.getAllContacts();
+
 
         // Assert
         assertEquals(2, responses.size());
 
         assertEquals("Harsh", responses.get(0).getFirstName());
         assertEquals("Vardhan", responses.get(0).getLastName());
+        assertEquals("harsh@gmail.com", responses.get(0).getEmail());
 
         assertEquals("Rahul", responses.get(1).getFirstName());
         assertEquals("Kumar", responses.get(1).getLastName());
+        assertEquals("rahul@gmail.com", responses.get(1).getEmail());
+
 
         // Verify
         verify(contactRepository).findAll();
+        verify(contactMapper).toResponse(contact1);
+        verify(contactMapper).toResponse(contact2);
     }
 
 
@@ -126,21 +176,22 @@ class ContactServiceImplTest {
         when(contactRepository.findAll())
                 .thenReturn(List.of());
 
+
         // Act
         List<ContactResponse> responses =
                 contactServiceImpl.getAllContacts();
 
+
         // Assert
         assertEquals(0, responses.size());
+
 
         // Verify
         verify(contactRepository).findAll();
     }
 
-
-   
-    // testing GET BY ID method
-   
+    // GET BY ID
+    
 
     @Test
     void getContactById_shouldReturnContact_whenContactExists() {
@@ -156,12 +207,25 @@ class ContactServiceImplTest {
                 "9123456780"
         );
 
+        ContactResponse expectedResponse = new ContactResponse();
+
+        expectedResponse.setFirstName("Harsh");
+        expectedResponse.setLastName("Vardhan");
+        expectedResponse.setEmail("harsh@gmail.com");
+        expectedResponse.setPhone("9876543210");
+        expectedResponse.setSecondaryPhone("9123456780");
+
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.of(contact));
+
+        when(contactMapper.toResponse(contact))
+                .thenReturn(expectedResponse);
+
 
         // Act
         ContactResponse response =
                 contactServiceImpl.getContactById(contactId);
+
 
         // Assert
         assertEquals("Harsh", response.getFirstName());
@@ -170,8 +234,10 @@ class ContactServiceImplTest {
         assertEquals("9876543210", response.getPhone());
         assertEquals("9123456780", response.getSecondaryPhone());
 
+
         // Verify
         verify(contactRepository).findById(contactId);
+        verify(contactMapper).toResponse(contact);
     }
 
 
@@ -184,19 +250,19 @@ class ContactServiceImplTest {
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.empty());
 
+
         // Act + Assert
         assertThrows(
                 ContactNotFoundException.class,
                 () -> contactServiceImpl.getContactById(contactId)
         );
 
+
         // Verify
         verify(contactRepository).findById(contactId);
     }
 
-
-       // testing UPDATE method
-  
+    // UPDATE
 
     @Test
     void updateContact_shouldUpdateContactSuccessfully() {
@@ -228,15 +294,28 @@ class ContactServiceImplTest {
                 "8765432109"
         );
 
+        ContactResponse expectedResponse = new ContactResponse();
+
+        expectedResponse.setFirstName("Harsh");
+        expectedResponse.setLastName("Vardhan");
+        expectedResponse.setEmail("new@gmail.com");
+        expectedResponse.setPhone("9123456789");
+        expectedResponse.setSecondaryPhone("8765432109");
+
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.of(existingContact));
 
         when(contactRepository.save(any(Contact.class)))
                 .thenReturn(updatedContact);
 
+        when(contactMapper.toResponse(updatedContact))
+                .thenReturn(expectedResponse);
+
+
         // Act
         ContactResponse response =
                 contactServiceImpl.updateContact(contactId, request);
+
 
         // Assert
         assertEquals("Harsh", response.getFirstName());
@@ -245,9 +324,11 @@ class ContactServiceImplTest {
         assertEquals("9123456789", response.getPhone());
         assertEquals("8765432109", response.getSecondaryPhone());
 
+
         // Verify
         verify(contactRepository).findById(contactId);
         verify(contactRepository).save(existingContact);
+        verify(contactMapper).toResponse(updatedContact);
     }
 
 
@@ -266,20 +347,19 @@ class ContactServiceImplTest {
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.empty());
 
+
         // Act + Assert
         assertThrows(
                 ContactNotFoundException.class,
                 () -> contactServiceImpl.updateContact(contactId, request)
         );
 
+
         // Verify
         verify(contactRepository).findById(contactId);
     }
 
-
-    
-    // checking DELETE method
-   
+    // DELETE
 
     @Test
     void deleteContact_shouldDeleteContact_whenContactExists() {
@@ -298,10 +378,12 @@ class ContactServiceImplTest {
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.of(contact));
 
+
         // Act
         contactServiceImpl.deleteContact(contactId);
 
-        // Assert / Verify
+
+        // Assert + Verify
         verify(contactRepository).findById(contactId);
         verify(contactRepository).deleteById(contactId);
     }
@@ -316,11 +398,13 @@ class ContactServiceImplTest {
         when(contactRepository.findById(contactId))
                 .thenReturn(Optional.empty());
 
+
         // Act + Assert
         assertThrows(
                 ContactNotFoundException.class,
                 () -> contactServiceImpl.deleteContact(contactId)
         );
+
 
         // Verify
         verify(contactRepository).findById(contactId);
