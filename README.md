@@ -193,3 +193,88 @@ Building a **ContactApp** using **Spring Boot** with an **H2 in-memory database*
 
 Built `ContactApp` using **Spring Boot, Spring Data JPA, and H2 Database** to understand how REST APIs interact with a relational database. Implemented complete **CRUD operations** using a layered architecture consisting of **Controller → Service → Repository → H2 Database**.
 ```
+# Day 8: ContactApp – Test Cases
+
+## Focus Area
+
+Implementing **test cases** for the ContactApp to ensure the application's functionality works as expected and to improve code reliability.
+
+## Code & Resources
+
+[View Day 8 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day8)
+
+## Core Concepts Covered
+
+- **Unit Testing:** Writing test cases to verify individual components and application logic
+- **Spring Boot Testing:** Testing Spring Boot application components
+- **Test Case Design:** Creating test scenarios for different application functionalities
+- **CRUD Testing:** Validating Create, Read, Update, and Delete operations
+- **Service Layer Testing:** Testing business logic and service-layer functionality
+- **Controller Testing:** Verifying REST API request and response behavior
+- **Assertions:** Using assertions to validate expected results
+
+## Testing Coverage
+
+- Test cases for adding contacts
+- Test cases for retrieving contacts
+- Test cases for retrieving a contact by ID
+- Test cases for updating contacts
+- Test cases for deleting contacts
+- Validation of expected responses and application behavior
+
+## Summary
+
+Implemented **test cases for the ContactApp** to verify the correctness of its REST APIs and application logic. This helped improve the reliability of the application and provided a better understanding of testing practices in a Spring Boot project.
+
+---
+
+# Day 9: ContactApp – Swagger, Mapper, and Overall Project Structure
+
+## Focus Area
+
+Improving the **ContactApp's overall structure** by implementing **Swagger API documentation**, introducing a **Mapper layer**, and refining the project's layered architecture.
+
+## Code & Resources
+
+[View Day 9 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day9)
+
+## Core Concepts Covered
+
+- **Swagger / OpenAPI:** Documenting and testing REST APIs through an interactive API interface
+- **API Documentation:** Providing clear documentation for available endpoints, request parameters, and responses
+- **Mapper Layer:** Separating entity objects from DTOs and handling object conversion
+- **DTO Mapping:** Converting request/response objects between different application layers
+- **Layered Architecture:** Improving separation of responsibilities across Controller, Service, Mapper, Repository, and Database layers
+- **Project Structure:** Organizing the application into well-defined packages and components
+- **Separation of Concerns:** Keeping business logic, data access, mapping, and API handling independent
+
+## Application Structure
+
+The application structure was improved to follow a cleaner layered architecture:
+
+**Controller → Service → Mapper → Repository → Database**
+
+- **Controller:** Handles HTTP requests and responses
+- **Service:** Contains business logic
+- **Mapper:** Converts between DTOs and Entity objects
+- **Repository:** Handles database operations using Spring Data JPA
+- **Database:** Stores application data using H2
+
+## Swagger Integration
+
+- Added Swagger/OpenAPI documentation for REST APIs
+- Documented available endpoints and their operations
+- Enabled interactive API testing through the Swagger UI
+- Improved API understanding and usability for developers
+
+## Mapper Implementation
+
+- Implemented a dedicated Mapper component
+- Separated DTOs from database entities
+- Converted request DTOs into entity objects
+- Converted entity objects into response DTOs
+- Improved maintainability and separation of responsibilities
+
+## Summary
+
+Enhanced the **ContactApp** by integrating **Swagger/OpenAPI documentation**, implementing a **Mapper layer**, and improving the overall project structure. The application now follows a cleaner and more maintainable architecture with better separation between API handling, business logic, object mapping, data access, and database operations.
