@@ -279,3 +279,137 @@ The application structure was improved to follow a cleaner layered architecture:
 ## Summary
 
 Enhanced the **ContactApp** by integrating **Swagger/OpenAPI documentation**, implementing a **Mapper layer**, and improving the overall project structure. The application now follows a cleaner and more maintainable architecture with better separation between API handling, business logic, object mapping, data access, and database operations.
+---
+
+# Day 10: JDBC – Database Connectivity and CRUD Operations
+
+## Focus Area
+
+Learning **JDBC (Java Database Connectivity)** and understanding how Java applications communicate directly with relational databases without using an ORM framework.
+
+## Code & Resources
+
+[View Day 10 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day10)
+
+## Core Concepts Covered
+
+- **JDBC:** Understanding Java's standard API for connecting applications with relational databases
+- **JDBC Driver:** Understanding the role of the database driver in establishing database connectivity
+- **Connection:** Establishing a connection between a Java application and the database
+- **Statement and PreparedStatement:** Executing SQL queries from Java
+- **PreparedStatement:** Using parameterized queries for safer and reusable SQL execution
+- **ResultSet:** Reading data returned by SELECT queries
+- **CRUD Operations:** Performing Create, Read, Update, and Delete operations using JDBC
+- **Resource Management:** Understanding the importance of closing database resources properly
+- **POJO Mapping:** Mapping database records to Java objects
+
+## JDBC Workflow
+
+The basic JDBC flow was understood as:
+
+**Java Application → JDBC Driver → Database Connection → SQL Query → ResultSet → Java Object**
+
+For CRUD operations:
+
+- **Create:** Execute `INSERT` queries
+- **Read:** Execute `SELECT` queries and process the `ResultSet`
+- **Update:** Execute `UPDATE` queries
+- **Delete:** Execute `DELETE` queries
+
+## Summary
+
+Learned how to connect a Java application directly with a relational database using **JDBC**, execute SQL queries, process query results, and implement database CRUD operations without relying on JPA or Hibernate.
+---
+# Day 11: EmployeePayroll App – JPA, Pagination, Sorting, and Query Methods
+
+## Focus Area
+
+Building an **EmployeePayroll App** using **Spring Boot and Spring Data JPA** and implementing additional database features such as **pagination, sorting, and query methods**.
+
+## Code & Resources
+
+[View Day 11 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day11)
+
+## Core Concepts Covered
+
+- **Spring Data JPA:** Using JPA for database operations and object-relational mapping
+- **Entity Mapping:** Mapping Java classes to database tables using JPA annotations
+- **Repository Layer:** Using `JpaRepository` for database access
+- **CRUD Operations:** Implementing Create, Read, Update, and Delete operations
+- **Pagination:** Retrieving records page by page instead of loading all records at once
+- **Sorting:** Retrieving records in ascending or descending order based on a field
+- **Query Methods:** Creating database queries using Spring Data JPA method naming conventions
+- **Layered Architecture:** Understanding the flow between Controller → Service → Repository → Database
+
+## EmployeePayroll App
+
+Implemented an **EmployeePayroll App** using **Spring Boot and Spring Data JPA** for managing employee information.
+
+The application supports basic employee CRUD operations and demonstrates additional Spring Data JPA features.
+
+## CRUD Operations
+
+- **Create:** Add a new employee
+- **Read:** Retrieve all employees or an employee by ID
+- **Update:** Modify existing employee information
+- **Delete:** Remove an employee from the database
+
+## Pagination
+
+Implemented **pagination** to retrieve employee records page by page.
+
+Pagination helps handle a large number of records efficiently by limiting the number of records returned in a single request.
+
+## Sorting
+
+Implemented **sorting** to retrieve employee records based on specific fields in:
+
+- Ascending order
+- Descending order
+
+For example, employees can be sorted based on salary or employee name.
+
+## Query Methods
+
+Implemented **Spring Data JPA Query Methods** using repository method naming conventions.
+
+Query methods were used to retrieve employees based on specific conditions without writing SQL queries manually.
+
+Examples include:
+
+- Finding employees by name
+- Finding employees by department
+- Finding employees based on salary
+- Finding employees using multiple conditions
+
+## Application Architecture
+
+The EmployeePayroll App follows a layered architecture:
+
+**Controller → Service → Repository → Database**
+
+### Controller
+
+Handles HTTP requests and exposes REST API endpoints.
+
+### Service
+
+Contains the application's business logic.
+
+### Repository
+
+Uses **Spring Data JPA** and `JpaRepository` to perform database operations.
+
+### Entity
+
+Represents the employee data and maps Java objects to database tables.
+
+### Database
+
+Stores employee information using the configured relational database.
+
+## Summary
+
+Built the **EmployeePayroll App using Spring Boot and Spring Data JPA** and implemented complete **CRUD operations** along with **pagination, sorting, and query methods**.
+
+This helped understand how Spring Data JPA simplifies database operations and provides powerful repository features without requiring SQL queries for common database operations.
