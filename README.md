@@ -192,7 +192,8 @@ Building a **ContactApp** using **Spring Boot** with an **H2 in-memory database*
 ## Summary
 
 Built `ContactApp` using **Spring Boot, Spring Data JPA, and H2 Database** to understand how REST APIs interact with a relational database. Implemented complete **CRUD operations** using a layered architecture consisting of **Controller → Service → Repository → H2 Database**.
-```
+
+---
 # Day 8: ContactApp – Test Cases
 
 ## Focus Area
