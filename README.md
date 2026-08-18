@@ -413,3 +413,103 @@ Stores employee information using the configured relational database.
 Built the **EmployeePayroll App using Spring Boot and Spring Data JPA** and implemented complete **CRUD operations** along with **pagination, sorting, and query methods**.
 
 This helped understand how Spring Data JPA simplifies database operations and provides powerful repository features without requiring SQL queries for common database operations.
+---
+
+# Day 12: EmployeePayroll App - Logging and Custom Swagger Documentation
+
+## Focus Area
+
+Enhancing the **EmployeePayroll App** by implementing application logging and improving **Swagger/OpenAPI documentation** with custom descriptions for REST API endpoints.
+
+## Code & Resources
+
+[View Day 12 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day12)
+
+## Core Concepts Covered
+
+- **Application Logging:** Recording application events, requests, errors, and execution details
+- **SLF4J Logger:** Using a standard logging interface in the Spring Boot application
+- **Log Levels:** Understanding and using `TRACE`, `DEBUG`, `INFO`, `WARN`, and `ERROR`
+- **Controller Logging:** Logging incoming API requests and responses
+- **Service Logging:** Tracking business-logic execution and important operations
+- **Exception Logging:** Recording errors and exceptions for debugging
+- **Swagger/OpenAPI:** Generating interactive documentation for REST APIs
+- **Custom API Descriptions:** Adding meaningful descriptions to API endpoints
+- **API Response Documentation:** Describing expected success and error responses
+- **Schema Documentation:** Documenting request and response models
+
+## Logger Implementation
+
+Implemented logging across different application layers to track application behavior and simplify debugging.
+
+Logging was added for operations such as:
+
+- Creating a new employee
+- Retrieving employee records
+- Updating employee information
+- Deleting an employee
+- Executing service-layer methods
+- Handling invalid requests and exceptions
+
+### Log Levels Used
+
+| Log Level | Purpose |
+|---|---|
+| `INFO` | Records normal application operations |
+| `DEBUG` | Provides detailed information useful during development |
+| `WARN` | Indicates unexpected situations that do not stop the application |
+| `ERROR` | Records exceptions and failed operations |
+
+## Swagger Integration
+
+Enhanced the EmployeePayroll App with **Swagger/OpenAPI documentation** to provide an interactive interface for understanding and testing REST APIs.
+
+Swagger documentation includes:
+
+- Available API endpoints
+- HTTP methods and endpoint paths
+- Request parameters
+- Request body structures
+- Response models
+- HTTP status codes
+- Interactive API testing through Swagger UI
+
+## Custom Swagger Descriptions
+
+Added custom descriptions to improve the clarity and usability of the API documentation.
+
+The documentation was customized using annotations such as:
+
+- **`@Tag`**: Provides a name and description for the controller
+- **`@Operation`**: Adds a summary and detailed description to an API endpoint
+- **`@ApiResponse`**: Documents possible API responses and HTTP status codes
+- **`@Parameter`**: Describes endpoint parameters
+- **`@Schema`**: Documents fields in request and response models
+
+### Documented EmployeePayroll Operations
+
+Custom descriptions were added for operations such as:
+
+- Adding a new employee
+- Retrieving all employees
+- Retrieving an employee by ID
+- Updating employee details
+- Deleting an employee
+- Retrieving paginated and sorted employee records
+
+## Benefits of Logging and API Documentation
+
+- Improved application monitoring and debugging
+- Better visibility into request and execution flow
+- Easier identification of errors and failed operations
+- Clear and structured REST API documentation
+- Simplified API testing through Swagger UI
+- Better understanding of requests, responses, and status codes
+- Improved maintainability and developer experience
+
+## Application Architecture
+
+The EmployeePayroll App continues to follow a layered architecture:
+
+```text
+Controller -> Service -> Repository -> Database
