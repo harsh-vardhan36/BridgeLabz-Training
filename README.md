@@ -512,7 +512,8 @@ Custom descriptions were added for operations such as:
 The EmployeePayroll App continues to follow a layered architecture:
 
 ```text
-Controller -> Service -> Repository -> Database
+Controller -> Service -> Repository -> Database 
+```
 ---
 
 ### Day 13: Fundoo Notes App – User Registration and Login
