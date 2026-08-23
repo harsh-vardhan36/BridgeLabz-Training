@@ -513,3 +513,62 @@ The EmployeePayroll App continues to follow a layered architecture:
 
 ```text
 Controller -> Service -> Repository -> Database
+---
+
+### Day 13: Fundoo Notes App – User Registration and Login
+* **Focus Area:** Implementing basic user management with registration and login functionality.  
+* **Code & Resources:** [View Day 13 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day13)
+
+#### Core Concepts Covered
+- User Registration with validation
+- User Login with authentication
+- Controller-Service separation for clean architecture
+- Database integration with JPA/Hibernate
+
+**Summary:** Laid the foundation of the Fundoo Notes App by adding user registration and login features.
+
+---
+
+### Day 14: Fundoo Notes App – Password Reset Flow
+* **Focus Area:** Extending user management with password reset functionality.  
+* **Code & Resources:** [View Day 14 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day14)
+
+#### Core Concepts Covered
+- Forgot Password: Generating reset tokens
+- Reset Password: Secure password update
+- Token storage approaches
+- Validation and error handling
+
+**Summary:** Enhanced the Fundoo Notes App by implementing password recovery.
+
+---
+
+### Day 15: Fundoo Notes App – Notes CRUD and State Transitions
+* **Focus Area:** Building the core Notes feature with CRUD operations and state management.  
+* **Code & Resources:** [View Day 15 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day15)
+
+#### Core Concepts Covered
+- CRUD operations (Create, Read, Update, Delete)
+- State transitions: Active → Archived → Trashed → Restored
+- Pinning/unpinning notes
+- Authorization for user-specific notes
+- DTO responses with state and pinned fields
+
+**Summary:** Implemented note management with state transitions, giving users full control over their notes lifecycle.
+
+---
+
+### Day 16: Fundoo Notes App – Redis Caching and JMS (SMTP)
+* **Focus Area:** Integrating Redis caching and JMS (SMTP) for performance and communication.  
+* **Code & Resources:** [View Day 16 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day16)
+
+#### Core Concepts Covered
+- Redis integration for caching frequently accessed data
+- Spring Data Redis for cache management
+- JMS (SMTP) for sending emails (notifications, password reset, registration confirmation)
+- Scalability improvements for responsiveness and reliability
+
+**Summary:** Added Redis caching and JMS email support to the Fundoo Notes App, making it more production-ready.
+
+---
+
