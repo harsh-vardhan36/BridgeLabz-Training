@@ -1,28 +1,65 @@
-# Eclipse & STS specific files
-.metadata/
-bin/
+# =========================
+# Maven & Build Artifacts
+# =========================
 target/
-tmp/
-*.tmp
-*.bak
-*.swp
-*.log
+*.jar
+*.war
+*.ear
+*.class
 
-# Project-specific settings
+# =========================
+# IDE / Tooling
+# =========================
+.classpath
+.project
+.factorypath
 .settings/
 .idea/
 *.launch
-*.classpath
-*.project
 
-# Maven build artifacts
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-*.war
-*.jar
-*.ear
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example   # Keep example env file for reference
 
-# OS generated files
+# =========================
+# OS / Editor Junk
+# =========================
 .DS_Store
 Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Maven Wrapper
+# =========================
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# =========================
+# Docker / Compose
+# =========================
+*.pid
+*.seed
+*.pid.lock
+*.pidfile
+*.pid.json
+
+# =========================
+# Git / Metadata
+# =========================
+.gitignore
+.gitattributes
+
+# =========================
+# Keep these essential files
+# =========================
+!pom.xml
+!docker-compose.yml
+!HELP.md
+!src/
