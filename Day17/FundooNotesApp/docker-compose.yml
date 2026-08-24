@@ -1,0 +1,30 @@
+version: "3.8"
+
+# Optional convenience file. Run `docker compose up -d` to get local
+# Redis and RabbitMQ instances matching the defaults in .env.example
+# (Redis: localhost:6379, no password. RabbitMQ: localhost:5672,
+# guest/guest, management UI on localhost:15672). You do NOT need this
+# if you install them natively, or point at cloud instances instead.
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: fundoo-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    container_name: fundoo-rabbitmq
+    ports:
+      - "5672:5672"   # AMQP protocol port (what the app connects to)
+      - "15672:15672" # Management UI -> http://localhost:15672 (guest/guest)
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  rabbitmq-data:
