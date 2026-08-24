@@ -323,6 +323,16 @@ public class NoteServiceImpl implements NoteService {
 
         return notes.stream().map(this::toResponse).toList();
     }
+    @Override
+    public List<Note> findActiveByOwner(String email) {
+
+        User user = requireUser(email);
+
+        return noteRepository.findByUserAndState(
+                user,
+                Note.NoteState.ACTIVE
+        );
+    }
 
     @Override
     @CacheEvict(value = "userNotes", key = "#email")

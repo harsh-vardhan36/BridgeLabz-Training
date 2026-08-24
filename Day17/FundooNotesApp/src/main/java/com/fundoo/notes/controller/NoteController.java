@@ -3,6 +3,7 @@ package com.fundoo.notes.controller;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +12,9 @@ import com.fundoo.notes.dto.NoteRequestDTO;
 import com.fundoo.notes.dto.NoteResponseDTO;
 import com.fundoo.notes.dto.ReminderRequestDTO;
 import com.fundoo.notes.dto.TagRequestDTO;
+import com.fundoo.notes.entity.Note;
 import com.fundoo.notes.security.JwtUtil;
+import com.fundoo.notes.service.NoteExportService;
 import com.fundoo.notes.service.NoteService;
 
 @RestController
@@ -20,10 +23,12 @@ public class NoteController {
 
     private final NoteService noteService;
     private final JwtUtil jwtUtil;
+    private final NoteExportService noteExportService;
 
-    public NoteController(NoteService noteService, JwtUtil jwtUtil) {
+    public NoteController(NoteService noteService, JwtUtil jwtUtil, NoteExportService noteExportService) {
         this.noteService = noteService;
         this.jwtUtil = jwtUtil;
+        this.noteExportService =  noteExportService;
     }
 
     //  Create Note
@@ -33,12 +38,34 @@ public class NoteController {
         String email = jwtUtil.extractUsername(token.substring(7));
         return ResponseEntity.ok(noteService.createNote(email, noteRequest));
     }
-
+    
+    
     //  Get All Notes
     @GetMapping
     public ResponseEntity<List<NoteResponseDTO>> getNotes(@RequestHeader("Authorization") String token) {
         String email = jwtUtil.extractUsername(token.substring(7));
         return ResponseEntity.ok(noteService.getUserNotes(email));
+    }
+    
+    @GetMapping("/export")
+    public ResponseEntity<byte[]> exportNotes(
+            @RequestHeader("Authorization") String token) throws Exception {
+
+        String email = jwtUtil.extractUsername(token.substring(7));
+
+        List<Note> notes = noteService.findActiveByOwner(email);
+
+        byte[] excelBytes = noteExportService.exportToExcel(notes);
+
+        return ResponseEntity.ok()
+                .header(
+                        "Content-Disposition",
+                        "attachment; filename=my-notes.xlsx"
+                )
+                .contentType(MediaType.parseMediaType(
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                ))
+                .body(excelBytes);
     }
 
     //  Recent activity (audit trail, built from RabbitMQ note-activity events)

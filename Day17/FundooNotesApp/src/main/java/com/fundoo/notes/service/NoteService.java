@@ -8,6 +8,7 @@ import java.util.Set;
 import com.fundoo.notes.dto.NoteActivityResponseDTO;
 import com.fundoo.notes.dto.NoteRequestDTO;
 import com.fundoo.notes.dto.NoteResponseDTO;
+import com.fundoo.notes.entity.Note;
 
 public interface NoteService {
     // Note: every "Long noteNumber" below is the client-facing NoteResponseDTO.noteNumber
@@ -43,5 +44,6 @@ public interface NoteService {
     // Set a reminder (must be a future time) or pass null to cancel the
     // existing one. Fired by ReminderScheduler via RabbitMQ once reminderAt passes.
     NoteResponseDTO setReminder(String email, Long noteNumber, LocalDateTime reminderAt);
+	List<Note> findActiveByOwner(String email);
 
 }

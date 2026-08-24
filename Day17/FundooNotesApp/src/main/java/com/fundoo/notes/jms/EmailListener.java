@@ -36,9 +36,7 @@ public class EmailListener {
     @JmsListener(destination = JmsConfig.EMAIL_QUEUE)
     public void handleEmail(EmailMessage message) {
         if (!mailEnabled) {
-            // No SMTP creds configured (MAIL_ENABLED=false in .env) - log
-            // instead of sending, so the JMS flow is still testable end to
-            // end without a real mail account.
+         
             log.info("[MAIL DISABLED] Would send to {} | subject='{}' | body:\n{}",
                     message.getTo(), message.getSubject(), message.getBody());
             return;
