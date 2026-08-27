@@ -573,3 +573,44 @@ Controller -> Service -> Repository -> Database
 
 ---
 
+### Day 17: Fundoo Notes App – Batch Export to Excel
+* **Focus Area:** Implementing batch export functionality to generate Excel reports.  
+* **Code & Resources:** [View Day 17 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day17)
+
+#### Core Concepts Covered
+- Exporting notes data into Excel format
+- Using Apache POI for Excel file generation
+- Batch processing for large datasets
+- Service-layer integration for export functionality
+
+**Summary:** Added batch export to Excel, enabling users to download structured reports of their notes.
+
+---
+
+### Day 18: Fundoo Notes App – AOP Logging
+* **Focus Area:** Applying **Aspect-Oriented Programming (AOP)** for centralized logging.  
+* **Code & Resources:** [View Day 18 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day18)
+
+#### Core Concepts Covered
+- Introduction to AOP concepts: Join Points, Pointcuts, Advice
+- Implementing logging using `@Aspect` and `@Around` advice
+- Centralized logging for controller and service methods
+- Improved maintainability by separating cross-cutting concerns
+
+**Summary:** Integrated AOP-based logging to track application flow and improve debugging without cluttering business logic.
+
+---
+
+### Day 19: Fundoo Notes App – Microservices Conversion
+* **Focus Area:** Beginning the transition from a monolithic architecture to microservices.  
+* **Code & Resources:** [View Day 19 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day19)
+
+#### Core Concepts Covered
+- Introduction to microservices architecture
+- Setting up **Eureka Server** (Service Registry) on port **8761**
+- Configuring **API Gateway** on port **8081**
+- Creating a **Notification Service** for email and alerts
+- Service discovery and routing through Eureka + Gateway
+
+**Summary:** Started converting the Fundoo Notes App into microservices by introducing Eureka Server, API Gateway, and Notification Service, laying the foundation for scalable distributed architecture.
+---
