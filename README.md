@@ -8,8 +8,8 @@
 ---
 
 ## Summary of the Whole Training:
-## 📊 Training Journey Summary
-
+> I have added a day wise summary so you can have an idea of what I learn in the journey, You can also find Complete detail information with explanation below the Table:
+---
 | **Day** | **Project / Focus Area** | **Key Learnings** |
 |---------|---------------------------|-------------------|
 | ![SQL Badge](https://img.shields.io/badge/SQL-Database-blue?logo=postgresql) **Day 1** | DDL & DML Operations | CRUD with SQL, DBMS basics, redundancy & concurrency handling |
