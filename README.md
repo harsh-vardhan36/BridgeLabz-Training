@@ -7,6 +7,33 @@
 
 ---
 
+## Summary of the Whole Training:
+## 📊 Training Journey Summary
+
+| **Day** | **Project / Focus Area** | **Key Learnings** |
+|---------|---------------------------|-------------------|
+| ![SQL Badge](https://img.shields.io/badge/SQL-Database-blue?logo=postgresql) **Day 1** | DDL & DML Operations | CRUD with SQL, DBMS basics, redundancy & concurrency handling |
+| ![ER Badge](https://img.shields.io/badge/ER-Diagram-lightgrey?logo=diagrams.net) **Day 2** | ER Diagrams & Normalization | Many-to-many relationships, junction tables, 1NF–3NF normalization |
+| ![SQL Badge](https://img.shields.io/badge/SQL-Joins-orange?logo=database) **Day 3** | Joins, Triggers & Stored Procedures | INNER/LEFT/RIGHT joins, automation with triggers, reusable stored procedures |
+| ![Java Badge](https://img.shields.io/badge/Java-JDBC-red?logo=java) **Day 4** | HealthClinic CLI (Java + JDBC) | JDBC workflow, POJO mapping, CLI-driven CRUD operations |
+| ![Spring Badge](https://img.shields.io/badge/Spring-Core-green?logo=spring) **Day 5** | Spring Core Configurations | XML, Annotation, Java-based configs, IoC & Dependency Injection |
+| ![Spring MVC Badge](https://img.shields.io/badge/Spring-MVC-green?logo=spring) **Day 6** | MyGreetingApp (Spring MVC) | MVC architecture, Controller-Service-Model separation, form handling |
+| ![Spring Boot Badge](https://img.shields.io/badge/SpringBoot-App-green?logo=springboot) **Day 7** | ContactApp (Spring Boot + H2) | REST APIs, CRUD operations, layered architecture with JPA |
+| ![JUnit Badge](https://img.shields.io/badge/JUnit-Testing-brightgreen?logo=junit5) **Day 8** | ContactApp – Testing | Unit & integration testing, CRUD validation, assertions |
+| ![Swagger Badge](https://img.shields.io/badge/Swagger-OpenAPI-yellow?logo=swagger) **Day 9** | ContactApp – Swagger & Mapper | API documentation, DTO mapping, clean layered structure |
+| ![JDBC Badge](https://img.shields.io/badge/JDBC-Connectivity-blue?logo=java) **Day 10** | JDBC CRUD | Direct DB connectivity, PreparedStatements, ResultSet handling |
+| ![Payroll Badge](https://img.shields.io/badge/Employee-Payroll-lightblue?logo=databricks) **Day 11** | EmployeePayroll App | JPA, pagination, sorting, query methods |
+| ![Logging Badge](https://img.shields.io/badge/Logging-SLF4J-orange?logo=logstash) **Day 12** | EmployeePayroll – Logging & Swagger | SLF4J logging, log levels, custom API documentation |
+| ![Auth Badge](https://img.shields.io/badge/User-Auth-blue?logo=auth0) **Day 13** | Fundoo Notes – User Auth | Registration, login, controller-service separation |
+| ![Password Badge](https://img.shields.io/badge/Password-Reset-red?logo=keepassxc) **Day 14** | Fundoo Notes – Password Reset | Token-based reset, validation, secure password update |
+| ![Notes Badge](https://img.shields.io/badge/Fundoo-Notes-yellow?logo=googlekeep) **Day 15** | Fundoo Notes – Notes CRUD | State transitions (Active, Archived, Trashed), pin/unpin |
+| ![Redis Badge](https://img.shields.io/badge/Redis-Caching-red?logo=redis) **Day 16** | Fundoo Notes – Redis & JMS | Redis caching, SMTP email notifications |
+| ![Excel Badge](https://img.shields.io/badge/Excel-Export-green?logo=microsoft-excel) **Day 17** | Fundoo Notes – Batch Export | Export notes to Excel using Apache POI |
+| ![AOP Badge](https://img.shields.io/badge/AOP-Logging-purple?logo=spring) **Day 18** | Fundoo Notes – AOP Logging | Aspect-Oriented Programming, centralized logging |
+| ![Eureka Badge](https://img.shields.io/badge/Eureka-Server-orange?logo=apache) **Day 19** | Fundoo Notes – Microservices Start | Eureka Server, API Gateway, Notification Service |
+| ![Microservices Badge](https://img.shields.io/badge/Microservices-Architecture-darkblue?logo=docker) **Day 20** | Fundoo Notes – Complete Microservices | Full migration to microservices, modular services, scalability |
+
+
 ## Training Overview
 
 I am committing my code and files daily to document everything I learn and practice during this training. To make navigation simple and structured, the repository is organized into day-wise folders. Each folder contains the complete set of files, assignments, and activities for that specific day.
@@ -614,3 +641,31 @@ Controller -> Service -> Repository -> Database
 
 **Summary:** Started converting the Fundoo Notes App into microservices by introducing Eureka Server, API Gateway, and Notification Service, laying the foundation for scalable distributed architecture.
 ---
+
+### Day 20: Fundoo Notes App – Complete Microservices Migration
+* **Focus Area:** Migrating the entire monolithic Fundoo Notes App into a fully microservices-based architecture.  
+* **Code & Resources:** [View Day 20 Directory](https://github.com/harsh-vardhan36/BridgeLabz-Training/tree/Refresher-Training/Day20)
+
+#### Core Concepts Covered
+- Breaking down the monolithic application into independent microservices
+- Service-specific responsibilities (User Service, Notes Service, Notification Service, etc.)
+- **Eureka Server** for service discovery
+- **API Gateway** for centralized routing and load balancing
+- Inter-service communication using REST APIs
+- Database-per-service strategy for isolation
+- Scalability and fault tolerance improvements
+
+#### Architecture Highlights
+- **User Service:** Handles registration, login, and authentication  
+- **Notes Service:** Manages CRUD operations, state transitions, and caching  
+- **Notification Service:** Sends emails and alerts via JMS/SMTP  
+- **Gateway + Eureka:** Provides routing, discovery, and resilience  
+
+**Summary:** Successfully migrated the Fundoo Notes App from a monolithic design into a complete microservices architecture, enabling scalability, modularity, and production-grade readiness.
+---
+## Thank You
+I would like to express my gratitude to **BridgeLabz** for providing this structured training program and continuous guidance.  
+This journey from **SQL basics to complete microservices migration** has helped me gain confidence in building production-grade applications.  
+Special thanks to my mentors and peers for their support, feedback, and encouragement throughout this learning path.  
+
+**— Harsh-vardhan**
